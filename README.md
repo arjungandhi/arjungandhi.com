@@ -1,3 +1,3 @@
-#map-viz
-a webapp to vizualize css data
+#arjungandhi.com
+my personal site 
 
