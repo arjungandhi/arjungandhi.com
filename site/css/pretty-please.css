@@ -361,10 +361,10 @@ end normalization
 
 :root{
 /*colors to use in the code important when switching from dark to light mode*/
---pretty-background: var(--nord0);
+--pretty-background: var(--nord1);
 --pretty-text: var(--nord5);
 --pretty-accent: var(--nord8);
---pretty-background-pop: var(--nord1);
+--pretty-background-pop: var(--nord0);
 --pretty-logo-color: var(--nord3);
 --pretty-link-color: var(--nord8);
 /*default transistion*/
@@ -397,6 +397,30 @@ body {
 a, button {
     cursor: pointer;
  }
+
+
+ /*sidebar*/
+ .pretty.sidebar {
+   width: fit-content;
+   height: 100vh;
+   background-color: var(--pretty-background-pop);
+   padding: 1em 1.5em;
+ }
+
+ .pretty.sidebar > *{
+  padding: .5em 0;
+}
+
+.pretty.sidebar > .pretty.text-logo > .logo {
+  opacity: .8;
+}
+
+.pretty.sidebar > hr {
+  border: 1px solid var(--pretty-text);
+  padding: 0;
+  opacity: .3;
+}
+
 
 
 /*menu*/
@@ -442,7 +466,7 @@ a, button {
 /*logo*/
 .pretty.text-logo {
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: 1.25em;
     color: var(--pretty-logo-color);
 }
 
