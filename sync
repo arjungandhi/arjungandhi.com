@@ -1,7 +1,0 @@
-#!/bin/bash
-aws s3 rm --recursive s3://www.arjungandhi.com
-aws s3 sync site s3://www.arjungandhi.com --exclude '.git/*'
-
-aws cloudfront create-invalidation --distribution-id=E24W6G7Z5WOQCL --paths / 
-aws cloudfront create-invalidation --distribution-id=E3MKDRE6IOMR91 --paths / 
-
