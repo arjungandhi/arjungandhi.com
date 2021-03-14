@@ -97,11 +97,11 @@ weight = 300
 [deployment]
 
 [[deployment.targets]]
-URL = "s3://arjungandhi.com?region=us-east-1"
+URL = "s3://www.arjungandhi.com?region=us-east-1"
 name = "arjungandhi.com"
 
 # If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
-cloudFrontDistributionID = "E357UXQ7R81NUT"
+cloudFrontDistributionID = "E3MKDRE6IOMR91"
 
 [[deployment.matchers]]
 # Cache static assets for 20 years.
