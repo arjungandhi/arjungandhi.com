@@ -1,11 +1,11 @@
-baseURL = "https://example.com"
-languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Arjun gandhi"
-theme = "anatole"
-summarylength = 10
+baseURL = "https://example.com"
 enableEmoji = true
 enableRobotsTXT = true
+languageCode = "en"
+summarylength = 10
+theme = "anatole"
+title = "Arjun gandhi"
 
 # Enable Disqus
 #disqusShortname = ""
@@ -14,25 +14,25 @@ enableRobotsTXT = true
 #googleAnalytics = ""
 
 # Syntax highlighting
-pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
 
 [params]
-title = "Arjun Gandhi"
 author = "Arjun Gandhi"
+title = "Arjun Gandhi"
 #copyright = "2020-2021"
 description = "I make things"
-profilePicture = "images/profile.jpg"
-keywords = ""
 favicon = "favicons/"
+keywords = ""
+profilePicture = "images/profile.jpg"
 # example ["css/custom.css"]
 customCss = []
 # example ["js/custom.js"]
-customJs = [] 
-mainSections = ["projects"]
-images = ["images/site-feature-image.png"]
+customJs = []
 doNotLoadAnimations = false
+images = ["images/site-feature-image.png"]
+mainSections = ["projects"]
 # Form Spree Contact Form
 # contactFormAction = "https://formspree.io/f/your-form-hash-here"
 # Google Site Verify
@@ -42,8 +42,8 @@ listDateFormat = "Jan, 2006"
 # singleDateFormat = "Mon, Jan 2, 2006"
 # Commento Comments
 # CommentoURL = "https://commento.example.com/js/commento.js"
-displayMode = "nord-dark"
 disableThemeSwitcher = true
+displayMode = "nord-dark"
 
 [params.simpleAnalytics]
 # enable = true
@@ -51,8 +51,8 @@ disableThemeSwitcher = true
 
 ## Math settings
 [params.math]
-enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
-use = "katex"  # options: "katex", "mathjax". default is "katex".
+enable = false # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex" # options: "katex", "mathjax". default is "katex".
 
 ## Social links
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
@@ -75,41 +75,40 @@ url = "mailto:contact@arjungandhi.com"
 
 [menu]
 
-  [[menu.main]]
-  name = "Who am I?"
-  identifier = "whoami"
-  weight = 100
-  url = "/whoami"
+[[menu.main]]
+identifier = "whoami"
+name = "Who am I?"
+url = "/whoami"
+weight = 100
 
-  [[menu.main]]
-  name = "Projects!"
-  weight = 200
-  identifier = "projects"
-  url = "/projects/"
+[[menu.main]]
+identifier = "projects"
+name = "Projects!"
+url = "/projects/"
+weight = 200
 
-  [[menu.main]]
-  name = "Contact"
-  weight = 300
-  identifier = "contact"
-  url = "/contact/"
-
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact/"
+weight = 300
 
 # Deployment
 [deployment]
 
 [[deployment.targets]]
-name = "arjungandhi.com"
 URL = "s3://arjungandhi.com?region=us-east-1"
+name = "arjungandhi.com"
 
 # If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
-cloudFrontDistributionID =	"E357UXQ7R81NUT"
+cloudFrontDistributionID = "E357UXQ7R81NUT"
 
 [[deployment.matchers]]
 # Cache static assets for 20 years.
-pattern = "^.+\\.(js|css|png|jpg|gif|svg|ttf)$"
 cacheControl = "max-age=630720000, no-transform, public"
 gzip = true
+pattern = "^.+\\.(js|css|png|jpg|gif|svg|ttf)$"
 
 [[deployment.matchers]]
-pattern = "^.+\\.(html|xml|json)$"
 gzip = true
+pattern = "^.+\\.(html|xml|json)$"
