@@ -3,10 +3,15 @@ author = "Hugo Authors"
 title = "Guide to Thumbnails in Hugo"
 date = "2019-03-04"
 description = "Guide to Thumbnails in Hugo"
+header = "Site Support"
 tags = [
     "thumbnail",
 ]
+categories = [
+    "site-support",
+]
 thumbnail= "images/landscape.jpg"
+draft = "true"
 +++
 Thumbnails can be enabled easily by setting the `thumbnail` parameter in the frontmatter to an image such as `"images/landscape.jpg"`. 
 

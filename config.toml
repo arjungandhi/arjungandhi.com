@@ -38,7 +38,7 @@ doNotLoadAnimations = false
 # Google Site Verify
 # googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 # indexDateFormat = "Mon, Jan 2, 2006"
-# listDateFormat = "Jan 2"
+listDateFormat = "Jan, 2006"
 # singleDateFormat = "Mon, Jan 2, 2006"
 # Commento Comments
 # CommentoURL = "https://commento.example.com/js/commento.js"

@@ -9,10 +9,11 @@ tags = [
     "html",
 ]
 categories = [
-    "themes",
-    "syntax",
+    "site-support",
 ]
 series = ["Themes Guide"]
+header = "Site Support"
+draft = "true"
 aliases = ["migrate-from-jekyl"]
 +++
 
