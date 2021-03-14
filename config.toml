@@ -1,5 +1,5 @@
 DefaultContentLanguage = "en"
-baseURL = "https://arjungandhi.com"
+baseURL = "https://www.arjungandhi.com"
 enableEmoji = true
 enableRobotsTXT = true
 languageCode = "en"
