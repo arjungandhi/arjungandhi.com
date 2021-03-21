@@ -93,6 +93,10 @@ name = "Contact"
 url = "/contact/"
 weight = 300
 
+#Allow Unsafe building
+[markup.goldmark.renderer]
+unsafe= true
+
 # Deployment
 [deployment]
 
