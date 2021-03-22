@@ -1,10 +1,35 @@
+const MODEL_URL = "https://data.arjungandhi.com/weights";
+var face_params;
+async function setup_face () {
+  await faceapi.loadSsdMobilenetv1Model(MODEL_URL);
+  await faceapi.loadFaceExpressionModel(MODEL_URL);
+  await faceapi.loadAgeGenderModel(MODEL_URL)
+}
+
+
+async function handle_image(file) {
+  if (file.type === "image") {
+    let img = document.createElement('img')
+    img.src = file.data
+    let face_stuff = await faceapi.detectAllFaces(img).withFaceExpressions().withAgeAndGender();
+    face_params = face_stuff[0]
+    age = face_params.age
+    console.log(face_params.age)
+  } else {
+    alert('Please Upload an Image')
+  }
+
+
+}
+
+
 age = 30; //
 max_len = 20; // det max branch len
 min_len = 1; // det max branch len
-lean = 0.7;
+lean = .7;
 max_branch = 2;
 var tree;
-thicc_factor = 1.7;
+thicc_factor = 1;
 branch_index = 0;
 
 let bg;
@@ -14,17 +39,21 @@ transperency = 0.7;
 
 let run_button
 
-function setup() {
+async function setup() {
   var canvas = createCanvas(570, 803);
   canvas.parent("twee-box");
   canvas.width = width
   canvas.height = height
   colorMode(RGB, 255, 255, 255, 1);
-
+  await setup_face()
+  input = createFileInput(handle_image);
+  input.parent('twee-box')
   run_button = createButton('Gen Tree')
   run_button.mousePressed(setup_sim)
   run_button.parent('twee-box')
 }
+
+
 
 function setup_sim() {
     tree = get_tree(createVector(0, 0), tree_angle(0), age);
