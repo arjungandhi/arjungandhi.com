@@ -74,8 +74,6 @@ label.file-input {
 @media (max-width: 750px) {
   .pretty.container {
     width: auto;
-    margin-right: 1em;
-    margin-left: 1em;
     text-align: center;
     justify-content: center;
   }
@@ -88,8 +86,6 @@ label.file-input {
   /* start of large tablet styles */
   .pretty.container {
     width: 650px;
-    margin-right: auto;
-    margin-left: auto;
   }
 
 
@@ -99,8 +95,6 @@ label.file-input {
 @media screen and (min-width: 1000px) {
   .pretty.container {
     width: 960px;
-    margin-right: auto;
-    margin-left: auto;
   }
 
 }

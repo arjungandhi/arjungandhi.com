@@ -1,7 +1,11 @@
 ---
 title: "The Future: Trees"
 date: 2021-03-16T14:47:41+00:00
-description: ""
+description: "A project representing your future as a tree"
+tags:
+  - art 
+  - p5.js
+  - face-api.js
 categories:
   - art
 draft: false
@@ -9,6 +13,28 @@ draft: false
 ---
 
 ---
+<div class= "pretty container" id = 'twee-box'></div>
+
+---
+### About The Project
+
+Life and the path we walk can be thought of as a tree, each desicion we make representing a different branch, a different path we choose to follow. So this project is all about generating a tree that represents your future. 
+
+#### How to use it
+
+1. Upload a photo of you or a friend
+2. The model will attempt to predict an age for you based on that and then calculate how an appropriate size for your future tree. 
+3. Click the Generate Tree button! The program will start drawing the tree in front of your eyes. (Note the younger you are the bigger your tree is and the longer it'll take to draw)*
+4. Once the progress bar is finished (or at any point in between) click the save button below the image and you'll be prompted to save your tree!
+
+\* You can restart the drawing at any point by just clicking the generate tree button again 
+
+#### Stuff I used
+
+- [p5.js](https://p5js.org/)
+- [face-api.js](https://github.com/justadudewhohacks/face-api.js/)
+- [progressbar.js](https://github.com/kimmobrunfeldt/progressbar.js)
+- [pretty-please](https://pretty-please.arjungandhi.com)
 
 <link rel="stylesheet" href="/css/twee/twee.css">
 
@@ -23,4 +49,4 @@ function preload() {
 }
 </script>
 <script src="/js/twee/twee.js" type="text/javascript"></script>
-<div class= "pretty container" id = 'twee-box'></div>
+

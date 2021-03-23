@@ -81,7 +81,7 @@ async function setup() {
   // break
   let br = document.createElement("br");
   twee_box.appendChild(br);
-  let h = document.createElement("h2");
+  let h = document.createElement("h3");
   h.innerHTML= 'About You!'
   h.style.margin = '.25em 0'
   twee_box.appendChild(h);
