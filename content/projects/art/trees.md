@@ -6,6 +6,10 @@ tags:
   - art 
   - p5.js
   - face-api.js
+  - pretty-please
+  - html
+  - css
+  - javascript
 categories:
   - art
 draft: false
@@ -36,17 +40,17 @@ Life and the path we walk can be thought of as a tree, each desicion we make rep
 - [progressbar.js](https://github.com/kimmobrunfeldt/progressbar.js)
 - [pretty-please](https://pretty-please.arjungandhi.com)
 
-<link rel="stylesheet" href="/css/twee/twee.css">
+<link rel="stylesheet" href="/css/projects/art/twee/twee.css">
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.0/p5.min.js" integrity="sha512-tGZFF1kxT/c9C+kv77mKkZ9Ww1VyU8TMX6HLUSzbPrDLuptbiRFBfti8A33ip+BBIHYUsybuZD9OKLmIqdLmaQ==" crossorigin="anonymous"></script>
-<script src="/js/twee/face-api.min.js"></script>
-<script src="/js/twee/progressbar.min.js"></script>
+<script src="/js/projects/art/twee/face-api.min.js"></script>
+<script src="/js/projects/art/twee/progressbar.min.js"></script>
 
 <script>
 function preload() {
   // preload() runs once
-  bg = loadImage("/images/twee_bg.jpg")
+  bg = loadImage("/images/projects/art/twee/twee_bg.jpg")
 }
 </script>
-<script src="/js/twee/twee.js" type="text/javascript"></script>
+<script src="/js/projects/art/twee/twee.js" type="text/javascript"></script>
 
