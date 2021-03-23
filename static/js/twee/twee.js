@@ -8,8 +8,12 @@ async function setup_face() {
 
 async function handle_image(file) {
   if (file.type === "image") {
+    kill_old_image()
     let img = document.createElement("img");
     img.src = file.data;
+    img.className = 'pretty image'
+    img.id = 'user_image'
+    twee_box.prepend(img)
     try {
       let face_stuff = await faceapi
         .detectAllFaces(img)
@@ -47,6 +51,7 @@ let bg;
 let age_bar;
 let progress_bar;
 let twee_age_bar;
+let twee_box
 var s = 1;
 draw_bg = true;
 transperency = 0.7;
@@ -67,7 +72,7 @@ async function setup() {
   // create a label for the upload button
   l = document.createElement("label");
   l.className = "file-input";
-  l.innerHTML = "Upload an picture of your face";
+  l.innerHTML = "Upload a picture of your face!";
   // input for image
   let input = createFileInput(handle_image);
   input.class("poof-input");
@@ -98,10 +103,9 @@ async function setup() {
   progress_bar = create_line_bar('draw_progress', 'twee-box')
 
   //canvas
-  canvas = createCanvas(570, 803);
+  canvas = createCanvas(570,803);
+  canvas.elt.style.height = 'auto'
   canvas.parent("twee-box");
-  canvas.width = width;
-  canvas.height = height;
   colorMode(RGB, 255, 255, 255, 1);
   await setup_face();
 
@@ -279,4 +283,12 @@ function create_line_bar(id, container_id) {
     }
   });
   return bar
+}
+
+function kill_old_image() {
+  let i = document.getElementById('user_image')
+
+  if (i) {
+      i.remove()
+  }
 }
