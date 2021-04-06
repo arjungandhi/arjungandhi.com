@@ -24,7 +24,10 @@ draft: false
 
 ---
 ### About The Project
-With this project I wanted to represent how covid has affected our idea of closeness. Before the pandemic most people wouldn't think twice about standing next to a stranger in line or passing somebody by on the street. This virus has preverted our idea of closeness. Now the idea of closeness is firmly associated with the idea of danger and death for many of us. For this project I used an ultrasonic sensor that changes the image shown from a smile when you are far away from objects and to a skull when things are too close. I've included an slider on the page sp you can see the image change for yourself. 
+With this project I wanted to represent how covid has affected our idea of closeness. Before the pandemic most people wouldn't think twice about standing next to a stranger in line or passing somebody by on the street. This virus has preverted our idea of closeness. Now the idea of closeness is firmly associated with the idea of danger and death for many of us. For this project I used an 4 ultrasonic sensors on a belt with an arduino so that the displayed image could change from a smile when you are far away from objects and to a skull when things are too close. I've included an slider on the page so you can see the image change for yourself. 
+
+{{< figure src="/images/projects/art/skull/belt.jpg" alt="image" caption="My ultrasonic belt" class="left" >}}
+
 
 #### Stuff I used
 
