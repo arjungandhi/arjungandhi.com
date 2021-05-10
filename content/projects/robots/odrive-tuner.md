@@ -1,7 +1,7 @@
 ---
 title: "Odrive Tuner Tool"
 date: 2021-05-9
-description: "OverKill Web Tuner"
+description: "Overly Pretty Tool To Make a motor spin"
 tags:
   - pretty-please
   - html
