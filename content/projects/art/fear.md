@@ -16,8 +16,6 @@ draft: false
 
 ---
 
----
-
 ### Inputs
 
 <div class= "pretty container" id = 'box'></div>

@@ -16,7 +16,6 @@ draft: false
 
 ---
 
----
 <div class= "pretty container" id = 'twee-box'></div>
 
 ---

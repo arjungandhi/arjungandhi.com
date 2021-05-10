@@ -5,7 +5,7 @@ enableRobotsTXT = true
 languageCode = "en"
 summarylength = 10
 theme = "anatole"
-title = "Arjun gandhi"
+title = "Arjun Gandhi"
 
 # Enable Disqus
 #disqusShortname = ""
@@ -32,9 +32,9 @@ customCss = []
 customJs = []
 doNotLoadAnimations = false
 images = ["images/site-feature-image.png"]
-mainSections = ["projects"]
+mainSections = [""]
 # Form Spree Contact Form
-# contactFormAction = "https://formspree.io/f/your-form-hash-here"
+contactFormAction = "https://formspree.io/f/xknkjwwp"
 # Google Site Verify
 # googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 # indexDateFormat = "Mon, Jan 2, 2006"
@@ -51,7 +51,7 @@ displayMode = "nord-dark"
 
 ## Math settings
 [params.math]
-enable = false # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+enable = true # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
 use = "katex" # options: "katex", "mathjax". default is "katex".
 
 ## Social links
@@ -78,12 +78,12 @@ url = "mailto:contact@arjungandhi.com"
 [[menu.main]]
 identifier = "whoami"
 name = "Who am I?"
-url = "/whoami"
+url = "/"
 weight = 100
 
 [[menu.main]]
 identifier = "projects"
-name = "Projects!"
+name = "Stuff I've Done"
 url = "/projects/"
 weight = 200
 
