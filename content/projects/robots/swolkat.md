@@ -129,8 +129,8 @@ Generally when your moving a robot arm around you want to be able to control whe
 
 For postion this conversion is called Forward and Inverse Kinematics and are a pretty well studied thing in robotics.
 
-Unfortunately sometimes position control just doesnt cut it. Sometimes you want to be able to control the velocity, and forces on the end effector as well. 
-Again we have math that can do this, and is generally known as Velocity Kinematics. (Velcoity Kinematics lets us do both velocity and force control on the robot)
+Unfortunately sometimes position control just doesnt cut it. Sometimes you want to be able to control the velocity, and forces on the end effector (tip) as well. 
+Again we have math that can do this, and is generally known as Velocity Kinematics. (Velocity Kinematics lets us do both velocity and force control on the robot)
 
 I'm not gonna rederive the math for them here, if you want to see how it was done you can find it all in our [paper](link), (its alot of matrixies)
 

@@ -1,6 +1,6 @@
 ---
 title: "Pretty Please"
-date: 2021-05-9
+date: 2021-05-09
 description: "Please make my site pretty"
 tags:
   - pretty-please

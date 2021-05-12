@@ -1,6 +1,6 @@
 ---
 title: "Odrive Tuner Tool"
-date: 2021-05-9
+date: 2021-05-09
 description: "Overly Pretty Tool To Make a motor spin"
 tags:
   - pretty-please
