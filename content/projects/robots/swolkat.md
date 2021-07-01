@@ -41,7 +41,7 @@ Since our team wanted to use big, strong, power-dense [BLDCs](renesas.com/us/en/
 So then we started referring to the project as Swol Kat.... then we called it Swol Kat to our future advisors .... and then .... we registered it as the official name of our project. So its Swol Kat I guess. 
 
 ## What did I do on the project? 
-On this project, I focused on software and controls of the robots. As such, I'm gonna talk mostly about software and controls. One because that's what I did. Two the electronics are controlled by angry pixies and I've yet to unlock the pixie wrangler skillset. If you're a big fan of pixies, feel free to read our 75 page long [paper](PLEASE PUT A LINK HERE DONT FORGET).
+On this project, I focused on software and controls of the robots. As such, I'm gonna talk mostly about software and controls. One because that's what I did. Two the electronics are controlled by angry pixies and I've yet to unlock the pixie wrangler skillset. If you're a big fan of pixies, feel free to read our 75 page long [paper](https://books.arjungandhi.com/Robotics/mqp-report.pdf).
 
 # How to make a motor go brr
 
@@ -107,7 +107,7 @@ Okay, so my goal when writing this code base was 2 fold:
 2. I didnt want to have to completely rewrite this code for the full quadruped. 
 
 
-{{< figure src="https://lh3.googleusercontent.com/0bGFX2fN2gmQA8O9m2bXUV2tQ8baFFYrWFy0BtlsuFBjBJO3vbZjobl9SkgdRILouBkfo5DMwF5m3WjEeUUB8oEnGjMj9z4jLOyI5YuooQGXDN4m_2EmrIbq54FbEk5ShN959hB44bohNJiY2rkZkUahCP4vIMEcms8kPkmAGtlc-VheQLZZtoXFjTaGKKn1BrEVvUUg0GXQ8oVOngEnmwC5QfZMCgdfnVf_vN2KNOU5g7IB0aQjHnerS4T4L88kewh0SjR00a1W9iLbm47awWiPYgazCzWTu-FPZEFfB04D-7xQgxD_UQ2mSXZZFbAdFALpIfEPT9EnfdhG7XKUzfkFwqVw57XiMyO7SqwmIDs1CtdT62eqdpQrhwf7SaRaW1ZZLOGcbAAWg36TU9I4w2ShFkowFrRTD-EFwVaZH9snEyWrMkCMEiLOJ4uljM4UE6WQkNQWavBb0ycVG_57ST7d4a_pZisyyOmcTBV5oIcAY4qaQBvpWvt_8A-GMhYs5yer0guLebJHagD8GrPO5eDnyEkEUZk1BUfbEfKsdPIW-oAph8hY0jiNgqz5sLVup3_QYX-ndCWiUhXOBDAsycnBLDdI-S-ewzUFj0HqG9MFLAyzsg3rfGt704SIvDeEf0u1bEYV425LIHlwOKnFgr-se7QsgeDf9EFSP7VEdHMX7OP4WTrfGGwLxzafgisoPnSElWeS0qzQTVxPg0Fz-to=w481-h258-no?authuser=0" alt="image" class="left" >}}
+{{< figure src="https://lh3.googleusercontent.com/S0cuGUMFVpYTm8h8WBLve5joS3B49C7Mf5tqxdLhNivh8eqp7jZncGndHFiOJCzCf_J_kJm__WyL11NxFZzsql4PrgLKCXR5MtNcdkCNdZ7FehGDPA8tSsI4ty8tYvt1qWHj1X4LGA=w2400" alt="image" class="left" >}}
 
 So I came up with this cute little class structure. There's a couple cool things about this. Notice how the leg class, can send values to either the Joint or the Virtual Joint. Basically I created 2 joint objects, one communicates with the actual controller we are using, and the other just pretends to communicate to the controller. You can make the leg with any combinations of the two and the leg class will just work. This structure proved to just be the best. It allowed me to completely test all my math on virtual legs and with in a few moment run any number of joints to see if they were working as I wanted. 
 
@@ -118,7 +118,7 @@ Now yes yes this is the basis of object oriented design, but you'd be suprised h
 As normal after a couple weeks of attempting to debug via a terminal and print statements, I got fed up. 
 
 So like last time I created another web GUI to control and test the leg. 
-{{< figure src="https://lh3.googleusercontent.com/pw/ACtC-3ey3tCB-Qxgi5WBq5tSq_-vyysVr27GClmcYaJxecmLssKdOsFivD0c6zGaAzQGZSKXJZpWXNez2q2MSAxkiL2d8AlZHnoWrNbGH8U2lgMHma-efg93QctIuns9dByUqY01TlVMfIHe3dfbDpL3gkn2=w1769-h986-no?authuser=0" alt="image">}}
+{{< figure src="https://lh3.googleusercontent.com/pw/ACtC-3ey3tCB-Qxgi5WBq5tSq_-vyysVr27GClmcYaJxecmLssKdOsFivD0c6zGaAzQGZSKXJZpWXNez2q2MSAxkiL2d8AlZHnoWrNbGH8U2lgMHma-efg93QctIuns9dByUqY01TlVMfIHe3dfbDpL3gkn2=w1769-h986-no?authuser=0" class="big">}}
 
 This Gui had all the neat features of the last tool I made and testing way easier it also was able to show the live position of the robot arm in the browser it's self. 
 
@@ -126,13 +126,12 @@ This Gui had all the neat features of the last tool I made and testing way easie
 
 Generally when your moving a robot arm around you want to be able to control where the end of it is and how the end of it moves (task space). Unfortuantely, we can only control the angles of each joint of the robot (joint space). Because of this we need to do some math, and figure out how to convert between joint space and task space. 
 
-
 For postion this conversion is called Forward and Inverse Kinematics and are a pretty well studied thing in robotics.
 
 Unfortunately sometimes position control just doesnt cut it. Sometimes you want to be able to control the velocity, and forces on the end effector (tip) as well. 
 Again we have math that can do this, and is generally known as Velocity Kinematics. (Velocity Kinematics lets us do both velocity and force control on the robot)
 
-I'm not gonna rederive the math for them here, if you want to see how it was done you can find it all in our [paper](link), (its alot of matrixies)
+I'm not gonna rederive the math for them here, if you want to see how it was done you can find it all in our [paper](https://books.arjungandhi.com/Robotics/mqp-report.pdf), (its alot of matrixies)
 
 The end result of this with a little bit of trajectory generation and gait control (I'll cover this later) is 
 
@@ -141,3 +140,60 @@ The end result of this with a little bit of trajectory generation and gait contr
 (I found out later that we accidently set the currently limit on the motors to like 2 amps which meant it was struggling to move the leg around in the air, keep reading the steps look alot cooler later on)
 
 # Now do it again but more. 
+
+Okay now you can control a leg in space. Congrats 🎉. The next step is attempting to coordinate 4 of those at once. Now in my several years of suffering through robot debugging hell. I've learned one of the best ways to debug broken robots is to see what its actually doing.
+
+## Visulaization 
+
+To help with this I plotted the 4 corners of the robot and each of the legs, this provided a useful tool to help debug a whole bunch of issues with the robot.
+
+After many, **many** hours of debugging and a making a good bit of progress towards looking more and more like my father. Here's a cool video of it walking around in the visualization enviroment
+
+{{< youtube 59Iai2ZQGe0 >}}
+
+Using the visualization I was able to test a majority of the gaits before the robot was ever built.
+
+## Golly Gee Lets Get Gaited 
+
+In simple terms gaits are patterns that describe the motion of the four legs of the quadruped. There's a huge variety of gaits that dogs and other four legged creatures use to traverse. During this project I programmed four of them. I'll breifly cover each of the four I programmed and some pretty videos ,however if you want more details about how each gait worked or detail flow charts for the logic. (As well other nonsense we had to implement inorder to make the damn thing work), again [paper](https://books.arjungandhi.com/Robotics/mqp-report.pdf).
+
+### Wiggle Gait (no idea what its actually called but I call cause it makes the robot wiggl)
+The wiggle gait tries to keep the feet of the robot on the ground while moving the body around. 
+
+{{< youtube U84VOgEOHHI >}}
+
+### Crawl Gait
+The crawl gait tries to move the robot body forward at a constant velocity while moving the legs forward 1 at a time.
+
+{{< youtube Ln1GCvG1c0s >}}
+
+
+### Trot Gait 
+The trot gait tries to move the robot body forward at a constant velocity while moving 2 diagonal legs forward at a time.
+
+{{< youtube D14twvJj0SA >}}
+
+
+### Intermittent Crawl Gait 
+The intermittent crawl Gait consists of 2 major movements: First the body is
+moved to the center of the triangle formed by the 3 grounded legs, then the stepping leg is moved forward
+
+{{< youtube 8ohMD32n8FU >}}
+
+
+# The Results 
+
+Unfortunately at the end of the day the robot didnt walk due to some major mechanical limitations in the belt transmission. But I learned a whole lot and this isnt the end of quadrupeds for me. Here some fun photos/videos of legs the robot. 
+
+
+
+{{< figure src="https://lh3.googleusercontent.com/wdUPL4dMCzTlC6-GHme-ftvrY9oWVmIb6zYcTsWuD-0wfHSKBV5KJqa4z6diY1idY0uDQwEG0IcHHlgqUEqxXQxyBo6MrVHS-3Wce0_ijNi_5BPHI4r13vOp4wCNT2ZFmaOwQa3o-A=w2400" alt="image" caption="final cad render of the robot">}}
+
+
+
+{{< youtube dk_FZFgpvbE >}}
+
+{{< youtube xgTchCsH8v0 >}}
+
+
+{{< figure src="https://lh3.googleusercontent.com/9TESr6rtG9woQ784KADhJZpMVKIpAng_WKhnWu94UM-8fVXM1jYIR5qjH5X7YautkPU0oUJPdhXEfVoASVWyelp7HBqKHOxrO5DAh435VdXTW-LcDJRvSJoUk_jN0AI81wrjdbRcqg=w2400" alt="image" caption=" a sneak preview of whats next" class="center">}}
