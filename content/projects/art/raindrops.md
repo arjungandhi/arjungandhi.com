@@ -9,9 +9,11 @@ tags:
   - html
   - css
   - javascript
+  - wpi
+  - generative
 categories:
   - art
-draft: false
+draft: true
 
 ---
 

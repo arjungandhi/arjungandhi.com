@@ -1,12 +1,14 @@
 ---
 title: "Odrive Tuner Tool"
 date: 2021-05-09
-description: "Overly Pretty Tool To Make a motor spin"
+description: "why did i put this much effort into this thing?"
 tags:
   - pretty-please
   - html
   - css
   - javascript
+  - wpi
+  - mqp
 categories:
   - robots
 draft: false

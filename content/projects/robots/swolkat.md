@@ -1,9 +1,11 @@
 ---
 title: "Swol Kat"
-date: 2021-05-10
+date: 2021-07-01
 description: "Building a Quadruped, I think"
 tags:
   - robots
+  - wpi
+  - mqp
 categories:
   - robots
 draft: false
