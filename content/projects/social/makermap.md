@@ -51,7 +51,7 @@ So what to do now. Well turns out theres actually a pretty easy way to solve thi
 1. Apply head to wall guarding knowledge 
 2. Repeat until wall is gone
 
-Now again my advisor comes to save my ass, and ~~told me~~suggest I go audit another professors class which would bring me into interviewing shape within just a weeks. 
+Now again my advisor comes to save my ass, and ~~told me~~ suggest I go audit another professors class which would bring me into interviewing shape within just a weeks. 
 
 ## side note
 FOR CONTEXT. One of the big reasons I did my class in Worcester and didnt go have fun in Australia is I specifically did not have to take this class. 
@@ -59,5 +59,6 @@ FOR CONTEXT. One of the big reasons I did my class in Worcester and didnt go hav
 and that was how I got tricked into auditing a class(showing up and learning but with out the credit) that I taught I handed cleverly weasled my way out of. 
 
 # Arjun gets bamboozled into taking a class was sad about it but then was pleasently suprised and had a great time. 
+
 
 
