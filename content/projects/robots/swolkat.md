@@ -9,8 +9,16 @@ tags:
 categories:
   - robots
 draft: false
----
+summary: "
+# tldr
 
+I spend my senior year working on a quadruped. It didn't quite walk, due to mechanical issues
+
+# photos
+
+
+"
+---
 Hi, welcome to a culmination of the last 4 years of my education, a robot kat that theoretically walks. 
 
 # The Goal 

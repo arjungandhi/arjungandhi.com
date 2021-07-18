@@ -58,7 +58,8 @@ FOR CONTEXT. One of the big reasons I did my class in Worcester and didnt go hav
 
 and that was how I got tricked into auditing a class(showing up and learning but with out the credit) that I taught I handed cleverly weasled my way out of. 
 
-# Arjun gets bamboozled into taking a class was sad about it but then was pleasently suprised and had a great time. 
+# Arjun gets bamboozled into taking a class was sad about it but then was pleasantly suprised and had a great time. 
 
+So honestly I was ready to suffer when I got to this class. But turns out I had a really great time! My instructor was fantastic and within the 5-6 classes I attended I was ready to start interviewing. 
 
 

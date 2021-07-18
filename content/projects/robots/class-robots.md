@@ -8,5 +8,5 @@ tags:
   
 categories:
   - robots
-draft: false
+draft: true
 ---

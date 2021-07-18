@@ -14,7 +14,7 @@ tags:
   - generative
 categories:
   - art
-draft: true
+draft: false
 
 ---
 

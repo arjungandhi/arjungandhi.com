@@ -13,7 +13,7 @@ tags:
   - generative
 categories:
   - art
-draft: true
+draft: flase
 
 ---
 
