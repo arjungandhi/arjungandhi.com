@@ -14,7 +14,7 @@ draft: false
 
 Listen, I know normally when I start projects I start off the deep end then keep going, but I swear. This one started out normal. 
 
-All I wanted to do. was embed an itsy bitsy little carousel with my photos and videos a projects into this site. I keep my photos in google photos, because its good, and you know its **Google** they had this feature like 10 years ago or what ever with Picasa. There's no way they just chucked that feature out the windows and watch the world burn right? (<- *this is foreshadowing they totally fucking did those rat bastards*)
+All I wanted to do. was embed an itsy bitsy little carousel with my photos and videos a projects into this site. I keep my photos in google photos, because its good, and you know its **Google** they had this feature like 10 years ago or what ever with Picasa. There's no way they just chucked that feature out the windows and watch the world burn right? (<- *they totally fucking did those rat bastards*)
 
 # the katabasis
 
@@ -74,7 +74,7 @@ seconds = random.randint(0,100)
 
 video = picture * 60 * seconds 
 
->>> "my terminal is now covered in good. thats a lotta good"
+>>> "goodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgood"
 ```
 
 Okay, so after staring 
