@@ -77,5 +77,33 @@ video = picture * 60 * seconds
 >>> "goodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgood"
 ```
 
-Okay, so after staring 
+Okay, so after staring at google photos album for far to many hours. I've learned a couple things. 
+
+Google loads videos in 2 scenarios. 
+
+1. When you click on a video and it pulls it up. 
+    - the problem is its a api between them and youtube and the source data doesn't contain a permanent link to the data rather its some sort of blob. So I can't embed that. 
+
+2. Sometimes when I load the site I notice google enables a video on hover feature. 
+    - Watching the html while that happens.. Gotcha! a html video tag with a url as the source 
+
+
+Going to the URL its the independent video! 
+
+Now how do I get this link automatically. I could scrape it but that would suck and be slow 
+
+Out of curiosity I diffed the link of the picture I get when I make the get request and its corresponding video and voila! 
+
+Their almost identical! 
+
+The end of the photo link: `=w1769-h986-no`
+The end of the video link `=m134?sq=0&sq_end=1`
+
+So running some tests with in jupyter notebook [here](https://github.com/arjungandhi/google-photos-yoinker/blob/master/testing/hippity%20hoppity%20your%20photos%20are%20now%20my%20property.ipynb) by get requesting second variation of each base photo link game me a 200 status code I could check if the media item was a photo or a video!
+
+I can also can try using the response url as the source of the video and it should work!
+
+I'm gonna stop here for now while writing this post I thought of a couple more things to experiment with and I'll be back with the results.
+
+
 

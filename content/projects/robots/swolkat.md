@@ -195,15 +195,5 @@ moved to the center of the triangle formed by the 3 grounded legs, then the step
 
 Unfortunately at the end of the day the robot didnt walk due to some major mechanical limitations in the belt transmission. But I learned a whole lot and this isnt the end of quadrupeds for me. Here some fun photos/videos of legs the robot. 
 
-
-
-{{< figure src="https://lh3.googleusercontent.com/wdUPL4dMCzTlC6-GHme-ftvrY9oWVmIb6zYcTsWuD-0wfHSKBV5KJqa4z6diY1idY0uDQwEG0IcHHlgqUEqxXQxyBo6MrVHS-3Wce0_ijNi_5BPHI4r13vOp4wCNT2ZFmaOwQa3o-A=w2400" alt="image" caption="final cad render of the robot">}}
-
-
-
-{{< youtube dk_FZFgpvbE >}}
-
-{{< youtube xgTchCsH8v0 >}}
-
-
-{{< figure src="https://lh3.googleusercontent.com/9TESr6rtG9woQ784KADhJZpMVKIpAng_WKhnWu94UM-8fVXM1jYIR5qjH5X7YautkPU0oUJPdhXEfVoASVWyelp7HBqKHOxrO5DAh435VdXTW-LcDJRvSJoUk_jN0AI81wrjdbRcqg=w2400" alt="image" caption=" a sneak preview of whats next" class="center">}}
+# Photos/Videos
+{{< google-photos tbHcgyWN44g9qj216 grid >}}
