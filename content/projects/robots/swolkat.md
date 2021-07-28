@@ -12,9 +12,11 @@ draft: false
 summary: "
 # tldr
 
-I spend my senior year working on a quadruped. It didn't quite walk, due to mechanical issues
+I spend my senior year working on a quadruped.
 
-# photos
+# Photos/Videos
+
+{{< google-photos tbHcgyWN44g9qj216 grid >}}
 
 
 "
