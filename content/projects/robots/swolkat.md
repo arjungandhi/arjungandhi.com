@@ -9,18 +9,31 @@ tags:
 categories:
   - robots
 draft: false
-summary: "
-# tldr
+---
 
-I spend my senior year working on a quadruped.
+# The Blurb
+
+This project was a shot at my childhood dream of making a robot that can walk. Somehow I also convinced my school to give me college credit for it. Me and my team designed built and programmed a 12 DOF quadruped over the course of 8 months. 
+
+# Features
+  - Carbon Fiber and 3d printed body
+  - Custom circuit boards for power distribution and wire management
+  - Highly expansible code base that runs on a Raspberry pi
+  - Code base can easily be modified to work on a completely different quadruped
+  - Visualization of the quadruped gaits for debugging for running on a real robot
+  - Low latency Websocket comms over Wifi
+  - 2 custom GUI's for Motor, and Single Leg testing
+  - 3 implemented gaits 
+  - High Power BLDC actuators
+
+# Links:
+- [paper](https://books.arjungandhi.com/Robotics/mqp-report.pdf)
 
 # Photos/Videos
+{{< google-photos tbHcgyWN44g9qj216 carousel >}}
 
-{{< google-photos tbHcgyWN44g9qj216 grid >}}
+<end-tldr>
 
-
-"
----
 Hi, welcome to a culmination of the last 4 years of my education, a robot kat that theoretically walks. 
 
 # The Goal 
@@ -167,7 +180,7 @@ Using the visualization I was able to test a majority of the gaits before the ro
 
 ## Golly Gee Lets Get Gaited 
 
-In simple terms gaits are patterns that describe the motion of the four legs of the quadruped. There's a huge variety of gaits that dogs and other four legged creatures use to traverse. During this project I programmed four of them. I'll breifly cover each of the four I programmed and some pretty videos ,however if you want more details about how each gait worked or detail flow charts for the logic. (As well other nonsense we had to implement inorder to make the damn thing work), again [paper](https://books.arjungandhi.com/Robotics/mqp-report.pdf).
+In simple terms gaits are patterns that describe the motion of the four legs of the quadruped. There's a huge variety of gaits that dogs and other four legged creatures use to traverse. During this project I programmed four of them. I'll breifly cover each of the four I programmed and some pretty videos, however if you want more details about how each gait worked or detail flow charts for the logic. (As well other nonsense we had to implement inorder to make the damn thing work), again [paper](https://books.arjungandhi.com/Robotics/mqp-report.pdf).
 
 ### Wiggle Gait (no idea what its actually called but I call cause it makes the robot wiggl)
 The wiggle gait tries to keep the feet of the robot on the ground while moving the body around. 
@@ -198,4 +211,4 @@ moved to the center of the triangle formed by the 3 grounded legs, then the step
 Unfortunately at the end of the day the robot didnt walk due to some major mechanical limitations in the belt transmission. But I learned a whole lot and this isnt the end of quadrupeds for me. Here some fun photos/videos of legs the robot. 
 
 # Photos/Videos
-{{< google-photos tbHcgyWN44g9qj216 grid >}}
+{{< google-photos tbHcgyWN44g9qj216  >}}
