@@ -3,9 +3,20 @@ title: "Swol Kat"
 date: 2021-07-01
 description: "Building a Quadruped, I think"
 tags:
-  - robots
-  - wpi
-  - mqp
+  - python
+  - c++ 
+  - solidworks
+  - cad
+  - 3d printing
+  - websockets
+  - html
+  - css
+  - javascript
+  - controls 
+  - odrive 
+  - bldc 
+  - wpi 
+  - leadership
 categories:
   - robots
 draft: false

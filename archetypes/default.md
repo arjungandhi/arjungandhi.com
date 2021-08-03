@@ -3,11 +3,9 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 description: "Building a Quadruped, I think"
 tags:
-  - robots
-  - wpi
-  - mqp
+  - 
 categories:
-  - robots
+  - 
 draft: false
 ---
 
