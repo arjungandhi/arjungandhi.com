@@ -4,7 +4,6 @@ enableEmoji = true
 enableRobotsTXT = true
 languageCode = "en"
 summarylength = 10
-theme = "anatole"
 title = "Arjun Gandhi"
 
 # Enable Disqus

@@ -1,1 +1,6 @@
-public/
+**/themes/
+demo/
+.hugo/*
+!.hugo/version
+./public/
+./resources/
