@@ -24,7 +24,7 @@ A quick Blub
 # Photos/Videos
 <!--{{< google-photos tbHcgyWN44g9qj216 carousel >}}-->
 
-<!--<end-tldr> Uncomment this if you want a tldr-->
+<end-tldr> <!--Remove this line if you done need a tldr-->
 
 Go Nuts after this
 
