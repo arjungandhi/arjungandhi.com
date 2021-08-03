@@ -13,12 +13,26 @@ categories:
   - social
 draft: false
 ---
+# The Blurb
+
+This project was a started when I noticed how painfully convoluted it was to find and use some campus resources. In order to solve this problem me and my team worked together with the provost office and the Innovation and Entrepreneurship department to conduct interviews of the department heads and surverys of students to identify the root of the problem and propose solutions that integrate with existing WPI systems. 
+
+# Other Stuff we did/stats
+  - Built a functioning prototype that could show resources on a map 
+  - Surveyed 1/8th of the student body
+  - Interviewed almost every lab manager and department head on campus
+
+# Links:
+- [paper](https://web.wpi.edu/Pubs/E-project/Available/E-project-040420-192607/unrestricted/IQP_Final_Paper.pdf)
+
+
+<end-tldr>
 
 # But Why...
 
 So for those of you that didnt go to WPI, I'm looking at you **Sid**. We have 2 major projects, an IQP(Intermediate Qualifying Project) and a MQP(Major Qualifying Project). The IQP is supposed to be a social project generally students travel to some ~~vacation spot~~place in need either in the US or around the world and help out an organization there using all of our engineering skillz. Optionally added to the trip are:
 
-- 7 weeks of alcholism
+- 7 weeks of alcoholism
 - learning to hate at  minimum 3-4 of your team members
 - and writing a 80 page paper about what you did and bullshitting most of it 
 
@@ -63,3 +77,4 @@ and that was how I got tricked into auditing a class(showing up and learning but
 So honestly I was ready to suffer when I got to this class. But turns out I had a really great time! My instructor was fantastic and within the 5-6 classes I attended I was ready to start interviewing. 
 
 
+### More is coming soon for a quick summary check out the tldr
