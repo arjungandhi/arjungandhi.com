@@ -1182,57 +1182,69 @@ a.btn {
 }
 
 .toggle {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    width: 62px;
-    height: 32px;
     display: inline-block;
-    position: relative;
-    border-radius: 50px;
-    overflow: hidden;
-    vertical-align: middle;
-    outline: none;
-    border: none;
     cursor: pointer;
-    background-color: var(--post-color);
-    transition: background-color ease 0.3s;
-}
-
-.toggle:before {
-    content: "on off";
-    display: block;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .toggle i {
+    position: relative;
+    display: inline-block;
+    margin-right: .5rem;
+    width: 46px;
+    height: 26px;
+    background-color: #e6e6e6;
+    border-radius: 23px;
+    vertical-align: middle;
+    transition: all 0.3s linear;
+  }
+  
+  .toggle i::before {
+    content: "";
     position: absolute;
-    z-index: 2;
+    left: 0;
+    width: 42px;
+    height: 22px;
+    background-color: #fff;
+    border-radius: 11px;
+    transform: translate3d(2px, 2px, 0) scale3d(1, 1, 1);
+    transition: all 0.25s linear;
+  }
+  
+  .toggle i::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 22px;
+    height: 22px;
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24);
+    transform: translate3d(2px, 2px, 0);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .toggle:active i::after {
     width: 28px;
-    height: 28px;
-    background: var(--post-color);
-    left: 2px;
-    top: 2px;
-    border-radius: 50%;
-    font: 10px/28px Helvetica;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-indent: -22px;
-    word-spacing: 37px;
-    color: var(--bg-color);
-    text-shadow: -1px -1px rgba(0, 0, 0, 0.15);
-    white-space: nowrap;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-    transition: all cubic-bezier(0.3, 1.5, 0.7, 1) 0.3s;
-}
+    transform: translate3d(2px, 2px, 0);
+  }
+  
+  .toggle:active input:checked + i::after { transform: translate3d(16px, 2px, 0); }
+  
+  .toggle input { display: none; }
+  
+  .toggle input:checked + i { background-color: #A3BE8C; }
+  
+  .toggle input:checked + i::before { transform: translate3d(18px, 2px, 0) scale3d(0, 0, 0); }
+  
+  .toggle input:checked + i::after { transform: translate3d(22px, 2px, 0); }
 
-.toggle:checked {
-    background-color: #A3BE8C;
-}
 
-.toggle:checked:before {
-    left: 32px;
-}
 
 .toggle-container {
     text-align: right;
     float: right;
+
 }
 
 #tldr-content {
