@@ -209,7 +209,7 @@ To find the album id just grab last part of the share url (or just hit submit wi
 <input type="submit" value="Submit">
 </form>
 
-ps. it takes a couple seconds to load be patient
+ps. it takes a couple seconds to load be patient  
 pps. maybe more than a couple seconds if you have bad internet
 
 ## carousel
