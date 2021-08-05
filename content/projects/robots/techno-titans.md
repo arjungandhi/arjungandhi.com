@@ -1,6 +1,6 @@
 ---
 title: "Techno Titans"
-date: 2018-07-01T00:48:00-04:00
+date: 2017-07-01T00:48:00-04:00
 description: "Bring out the sacrificial freshman"
 tags:
   - northview 
