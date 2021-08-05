@@ -7,6 +7,9 @@ tags:
   - javascript
   - suffering
   - reverse engineering
+  - css
+  - chrome dev tools
+  - npm 
 categories:
   - internets
 draft: false
@@ -98,7 +101,7 @@ So running some tests with in jupyter notebook [here](https://github.com/arjunga
 
 I can also can try using the response url as the source of the video and it should work!
 
-....... brb gotta go test some more stuff
+....... at this point in the writing of this point i had an idea and went and rewrote the entire code base. 
 
 ## it's been a week and I'm tired. 
 
@@ -106,7 +109,7 @@ So this post was going to be about how even with the base url I the videos refus
 
 But after gremlin prowling through google api documentation. I found [this](https://developers.google.com/photos/library/guides/access-media-items).
 
-So this project might actually work! (note the finding documentation ends up a sentence long but was 3 days of reverse engineering googles shit. )
+So this project might actually work! (note the finding documentation ends up a sentence long but was 3 days of staring at the dev tools and googling till my eyes fell out of my head.)
 
 ## enter hell but now it's css flavored
 
