@@ -1,7 +1,7 @@
 ---
 title: "Techno Titans"
-date: 2017-07-01T00:48:00-04:00
-description: "Building a Quadruped, I think"
+date: 2018-07-01T00:48:00-04:00
+description: "Bring out the sacrificial freshman"
 tags:
   - northview 
   - mechanics
@@ -21,7 +21,7 @@ My first deep dive into robotics was my highschool robotics team. There I worked
   - lead mechanical sub-team for 2 years
   - mentored the FLL team: [Robosharks](http://shakeragelementarystemlab.weebly.com/robotics-team-robosharks.html)
   - taught summer camps involving programming and robotics 
-  - got maybe a bit to comfortable with an angle grindr 
+  - got maybe a bit to comfortable with an angle grinder 
 
 # Links:
 - [Techno Titans Website](https://www.technotitans.org/)

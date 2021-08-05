@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-description: "Building a Quadruped, I think"
+description: "SCREEEEEEEE"
 tags:
   - 
 categories:
@@ -12,6 +12,9 @@ draft: false
 # The Blurb
 
 A quick Blub 
+
+# What I did
+what did you do monkey
 
 # Features
   - Some features about stuff
