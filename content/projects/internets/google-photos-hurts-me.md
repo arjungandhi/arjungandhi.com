@@ -42,7 +42,7 @@ To find the album id just grab last part of the share url (or just hit submit wi
 <input type="submit" value="Submit">
 </form>
 
-ps. it takes a couple seconds to load be patient
+ps. it takes a couple seconds to load be patient  
 pps. maybe more than a couple seconds if you have bad internet
 
 ## carousel
@@ -79,8 +79,7 @@ github: https://www.github.com/arjungandhi/google-photos-yoinker
 A note here for this to work on your website you need to set up your own proxy and API on your own, I used AWS and lambda functions to do this and have instructions for it in the README of the repo. 
 
 
-
-
+<end-tldr>
 
 Listen, I know normally when I start projects I start off the deep end then keep going, but I swear. This one started out normal. 
 
