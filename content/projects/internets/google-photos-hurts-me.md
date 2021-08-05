@@ -142,6 +142,9 @@ To find the album id just grab last part of the share url (or just hit submit wi
 <input type="submit" value="Submit">
 </form>
 
+ps. it takes a couple seconds to load be patient
+pps. maybe more than a couple seconds if you have bad internet
+
 ## carousel
 <div class="center"> 
 <div id='carousel-demo'></div>
@@ -167,6 +170,15 @@ photo_function(id,"carousel-demo","carousel")
 photo_function(id,"grid-demo","grid")
 }
 </script>
+
+# how do I hippity hoppity yoink your property. 
+
+npm: https://www.npmjs.com/package/google-photos-yoinker
+jsdelivr: https://www.jsdelivr.com/package/npm/google-photos-yoinker
+github: https://www.github.com/arjungandhi/google-photos-yoinker
+
+A note here for this to work on your website you need to set up your own proxy and API on your own, I used AWS and lambda functions to do this and have instructions for it in the README of the repo. 
+
 
 
 
