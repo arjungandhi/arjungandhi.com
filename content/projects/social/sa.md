@@ -32,7 +32,5 @@ After my misadventures as a student in the senior level robotics courses for som
 # Photos/Videos
 <!--{{< google-photos tbHcgyWN44g9qj216 carousel >}}-->
 
-<end-tldr> <!--Remove this line if you done need a tldr-->
-
-Go Nuts after this
+Coming Soon!
 
