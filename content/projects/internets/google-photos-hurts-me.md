@@ -15,6 +15,73 @@ categories:
 draft: false
 ---
 
+# The Blurb
+
+Google had no good way to embed google photos albums so I did it my self.
+
+# Features
+  - blur until load
+  - dynamic resizing
+  - load videos and photos
+  - auto updates pictures and videos using the just the album id
+  - grid and carousel display options 
+  - minimal css for easy editing 
+
+# Demos
+
+Here's a quick demo to highlight the functionality
+
+To find the album id just grab last part of the share url (or just hit submit with my default one)
+
+```https://photos.app.goo.gl/L74MSFRNuyNSmrKm9``` <- this last part after the forward slash
+
+
+<form id ='photo-demo-form'>
+<label for="album_id">google photos album id:</label><br>
+<input  type="text" name= "album_id" value = "tbHcgyWN44g9qj216"> </input><br>
+<input type="submit" value="Submit">
+</form>
+
+ps. it takes a couple seconds to load be patient
+pps. maybe more than a couple seconds if you have bad internet
+
+## carousel
+<div class="center"> 
+<div id='carousel-demo'></div>
+</div>
+
+## grid
+<div class="center"> 
+<div id='grid-demo'></div>
+</div>
+
+<script type="module">
+let form = document.getElementById('photo-demo-form')
+
+form.onsubmit = (e) => {
+e.preventDefault();
+let id = new FormData(document.querySelector('#photo-demo-form')).get('album_id')
+let c = document.getElementById('carousel-demo')
+let g = document.getElementById('grid-demo')
+c.innerHTML= ''
+g.innerHTML = ''
+
+photo_function(id,"carousel-demo","carousel")
+photo_function(id,"grid-demo","grid")
+}
+</script>
+
+# Links/How To
+npm: https://www.npmjs.com/package/google-photos-yoinker
+jsdelivr: https://www.jsdelivr.com/package/npm/google-photos-yoinker
+github: https://www.github.com/arjungandhi/google-photos-yoinker
+
+A note here for this to work on your website you need to set up your own proxy and API on your own, I used AWS and lambda functions to do this and have instructions for it in the README of the repo. 
+
+
+
+
+
 Listen, I know normally when I start projects I start off the deep end then keep going, but I swear. This one started out normal. 
 
 All I wanted to do. was embed an itsy bitsy little carousel with my photos and videos a projects into this site. I keep my photos in google photos, because its good, and you know its **Google** they had this feature like 10 years ago or what ever with Picasa. There's no way they just chucked that feature out the windows and watch the world burn right? (<- *they totally fucking did those rat bastards*)
@@ -75,7 +142,7 @@ proof:
 "goodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgood"
 ```
 
-Okay, so after staring at google photos album for far to many hours. I've learned a couple things. 
+Okay, so after staring at google photos html for far to many hours. I've learned a couple things. 
 
 Google loads videos in 2 scenarios. 
 
