@@ -72,9 +72,9 @@ photo_function(id,"grid-demo","grid")
 </script>
 
 # Links/How To
-npm: https://www.npmjs.com/package/google-photos-yoinker
-jsdelivr: https://www.jsdelivr.com/package/npm/google-photos-yoinker
-github: https://www.github.com/arjungandhi/google-photos-yoinker
+npm: https://www.npmjs.com/package/google-photos-yoinker   
+jsdelivr: https://www.jsdelivr.com/package/npm/google-photos-yoinker   
+github: https://www.github.com/arjungandhi/google-photos-yoinker   
 
 A note here for this to work on your website you need to set up your own proxy and API on your own, I used AWS and lambda functions to do this and have instructions for it in the README of the repo. 
 
@@ -239,9 +239,9 @@ photo_function(id,"grid-demo","grid")
 
 # how do I hippity hoppity yoink your property. 
 
-npm: https://www.npmjs.com/package/google-photos-yoinker
-jsdelivr: https://www.jsdelivr.com/package/npm/google-photos-yoinker
-github: https://www.github.com/arjungandhi/google-photos-yoinker
+npm: https://www.npmjs.com/package/google-photos-yoinker   
+jsdelivr: https://www.jsdelivr.com/package/npm/google-photos-yoinker   
+github: https://www.github.com/arjungandhi/google-photos-yoinker   
 
 A note here for this to work on your website you need to set up your own proxy and API on your own, I used AWS and lambda functions to do this and have instructions for it in the README of the repo. 
 
