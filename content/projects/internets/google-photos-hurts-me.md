@@ -26,8 +26,6 @@ This guy's tool does it! But it doesn't auto update.... every time you upload a 
 
 That sounds like effort. 
   
-    
-
 Okay you know google's got their cloud services. They've probably got a great photo's API. I used their cloud compute services all of like one time but I'm pretty handy with AWS, I'm sure it'll be fine. 
 
 {{< figure src="https://i.imgur.com/8fNIfjn.png" >}}
@@ -35,10 +33,9 @@ Okay you know google's got their cloud services. They've probably got a great ph
 Oh what the fuck its a public link sharing album why the hell do I need OAuth?
 
 
-
 Okay fuck fuck uhhhh. github... yeah yeah... everyone has a github! there's no way there's not some nerd that wrote a npm package or something that just does this perfectly no questions asked. 
 
-Ah. shit is that PHP. Who even uses that anymore.
+Ah. shit is that PHP. Who even uses that anymore. (And it doesn't do videos)
 
 
 # arjun starts reverse engineering googles shit. 
@@ -62,19 +59,17 @@ Why?
 
 Well while pictures of robots are good. videos are gooder. 
 
-Also
+proof:
 
 ```python
 #!/bin/python
-import random
-
-word = "good"
-picture = 1000*word
-seconds = random.randint(0,100)
-
-video = picture * 60 * seconds 
-
->>> "goodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgood"
+>>> import random
+>>> word = "good"
+>>> picture = 1000*word
+>>> seconds = random.randint(0,100)
+>>> video = picture * 60 * seconds 
+>>> print(video)
+"goodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgood"
 ```
 
 Okay, so after staring at google photos album for far to many hours. I've learned a couple things. 
@@ -103,7 +98,20 @@ So running some tests with in jupyter notebook [here](https://github.com/arjunga
 
 I can also can try using the response url as the source of the video and it should work!
 
-I'm gonna stop here for now while writing this post I thought of a couple more things to experiment with and I'll be back with the results.
+....... brb gotta go test some more stuff
+
+## It's been a week I'm tired. 
+
+So this post was going to be about how even with the base url I the videos refused to load in the jupyter notebook. Which sucks.
+
+But after gremlin prowling through google api documentation. I found [this](https://developers.google.com/photos/library/guides/access-media-items).
+
+What we know now, google photos has a base url associated with each media item. 
+
+
+
+
+
 
 
 
