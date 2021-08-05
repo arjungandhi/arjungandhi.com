@@ -49,6 +49,7 @@ html[data-theme='nord-dark'] {
     --blockquote-border-color: #434C5E;
     --link-color: #88C0D0;
     --clicked-link-color: #5E81AC;
+    --swiper-theme-color: #88C0D0;
 }
 
 html {
