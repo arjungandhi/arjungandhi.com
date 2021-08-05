@@ -1,6 +1,6 @@
 ---
 title: "Symbotic Robotics Challenge"
-date: 2018-05-04T20:05:40-04:00
+date: 2018-06-04T20:05:40-04:00
 description: "its a really aggresive vaccum cleaner"
 tags:
   - cnc
