@@ -1,9 +1,13 @@
 {{- $id := .Get "id" | default (.Get 0) -}}
 {{- $type := .Get "type" | default (.Get 1) -}}
 
+{{ $seed := now }}  <!--generate a random seed to avoid id's matching up-->
+{{ $random := delimit (shuffle (split (md5 $seed) "" )) "" }}
+
+
 <div class="center"> 
-<div id ="{{$id}}"></div>
+<div id ="{{$id}}{{ $random }}"></div>
 </div>
 <script type="module">
-photo_function("{{$id}}","{{$id}}","{{$type}}")
+photo_function("{{$id}}","{{$id}}{{ $random }}","{{$type}}")
 </script>
