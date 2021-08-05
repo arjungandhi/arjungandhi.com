@@ -56,8 +56,7 @@ pps. maybe more than a couple seconds if you have bad internet
 </div>
 
 <script type="module">
-let form = document.getElementById('photo-demo-form')
-
+let form = document.getElementById('photo-demo-form');
 form.onsubmit = (e) => {
 e.preventDefault();
 let id = new FormData(document.querySelector('#photo-demo-form')).get('album_id')
@@ -65,7 +64,6 @@ let c = document.getElementById('carousel-demo')
 let g = document.getElementById('grid-demo')
 c.innerHTML= ''
 g.innerHTML = ''
-
 photo_function(id,"carousel-demo","carousel")
 photo_function(id,"grid-demo","grid")
 }
@@ -202,7 +200,7 @@ To find the album id just grab last part of the share url (or just hit submit wi
 ```https://photos.app.goo.gl/L74MSFRNuyNSmrKm9``` <- this last part after the forward slash
 
 
-<form id ='photo-demo-form'>
+<form id ='photo-demo-form2'>
 <label for="album_id">google photos album id:</label><br>
 <input  type="text" name= "album_id" value = "tbHcgyWN44g9qj216"> </input><br>
 <input type="submit" value="Submit">
@@ -213,27 +211,25 @@ pps. maybe more than a couple seconds if you have bad internet
 
 ## carousel
 <div class="center"> 
-<div id='carousel-demo'></div>
+<div id='carousel-demo2'></div>
 </div>
 
 ## grid
 <div class="center"> 
-<div id='grid-demo'></div>
+<div id='grid-demo2'></div>
 </div>
 
 <script type="module">
-let form = document.getElementById('photo-demo-form')
-
+var form = document.getElementById('photo-demo-form2')
 form.onsubmit = (e) => {
 e.preventDefault();
-let id = new FormData(document.querySelector('#photo-demo-form')).get('album_id')
-let c = document.getElementById('carousel-demo')
-let g = document.getElementById('grid-demo')
+let id = new FormData(document.querySelector('#photo-demo-form2')).get('album_id')
+let c = document.getElementById('carousel-demo2')
+let g = document.getElementById('grid-demo2')
 c.innerHTML= ''
 g.innerHTML = ''
-
-photo_function(id,"carousel-demo","carousel")
-photo_function(id,"grid-demo","grid")
+photo_function(id,"carousel-demo2","carousel")
+photo_function(id,"grid-demo2","grid")
 }
 </script>
 
