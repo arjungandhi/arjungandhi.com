@@ -104,9 +104,10 @@ blockquote {
 
 pre {
     background-color: var(--pre-bg-color);
-    padding: 5px;
+    padding: .5em;
     display: block;
     overflow-x: auto;
+    border-radius: .5em;
 }
 
 .info i {
@@ -1252,3 +1253,23 @@ a.btn {
     -webkit-align-items: center;
     align-items: center;
 }
+
+code {
+    background-color: var(--pre-bg-color);
+    padding:.1em;
+    border-radius:.1em;
+}
+
+
+ /*pretty forms*/
+ input, textarea {
+    max-width: 100%;
+    resize: vertical;
+    padding:.5em;
+    border-radius:.5em;
+    margin: .5em 0;
+    border: 2px solid var(--body-color);
+    background-color: transparent;
+    color: var(--body-color);
+    opacity: .5; /* Firefox */
+  }

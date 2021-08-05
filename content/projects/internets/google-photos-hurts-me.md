@@ -48,7 +48,7 @@ All the urls look like this
 https://lh3.googleusercontent.com/pw/ACtC-3ey3tCB-Qxgi5WBq5tSq_-vyysVr27GClmcYaJxecmLssKdOsFivD0c6zGaAzQGZSKXJZpWXNez2q2MSAxkiL2d8AlZHnoWrNbGH8U2lgMHma-efg93QctIuns9dByUqY01TlVMfIHe3dfbDpL3gkn2=w1769-h986-no
 ```
 
-Even nicer that `wXXX-hXXX` you see at the end of the url let you specify a size to pull the image in. Literally 10 line of javascript I was done easy project. 
+Even nicer that ```wXXX-hXXX``` you see at the end of the url let you specify a size to pull the image in. Literally 10 line of javascript I was done easy project. 
 
 
 ## enter hell
@@ -91,8 +91,8 @@ Out of curiosity I diffed the link of the picture I get when I make the get requ
 
 Their almost identical! 
 
-The end of the photo link: `=w1769-h986-no`
-The end of the video link `=m134?sq=0&sq_end=1`
+The end of the photo link: ```=w1769-h986-no```  
+The end of the video link ```=m134?sq=0&sq_end=1```
 
 So running some tests with in jupyter notebook [here](https://github.com/arjungandhi/google-photos-yoinker/blob/master/testing/hippity%20hoppity%20your%20photos%20are%20now%20my%20property.ipynb) by get requesting second variation of each base photo link game me a 200 status code I could check if the media item was a photo or a video!
 
@@ -100,14 +100,70 @@ I can also can try using the response url as the source of the video and it shou
 
 ....... brb gotta go test some more stuff
 
-## It's been a week I'm tired. 
+## it's been a week and I'm tired. 
 
 So this post was going to be about how even with the base url I the videos refused to load in the jupyter notebook. Which sucks.
 
 But after gremlin prowling through google api documentation. I found [this](https://developers.google.com/photos/library/guides/access-media-items).
 
-What we know now, google photos has a base url associated with each media item. 
+So this project might actually work! (note the finding documentation ends up a sentence long but was 3 days of reverse engineering googles shit. )
 
+## enter hell but now it's css flavored
+
+So my initial plan was to just embed a carousel of the photos and videos that I had found. But in my 5 min of looking for a decent carousel library I didn't find one that I liked. 
+
+And then as I was prowling around the google photos html. I thought how cool would it be to have my own google photos grid, that I could embed in any site. 
+
+Luckily [Dan](https://schlosser.io/) had a great [article](https://medium.com/@danrschlosser/building-the-image-grid-from-google-photos-6a09e193c74a) on how it all worked. 
+
+I tried using his library didn't really like it too much and then ended up implementing the algorithm from scratch anyway. 
+
+I then trugged my way back to the carousel and found [Swiper](https://swiperjs.com/swiper-api) and got a sweet carousel. 
+
+3 days later some suffering and bingo bango boongo you got a javascript library that can embed google photos. 
+
+{{< tweet 1420455256136237059 >}}
+
+# demos
+
+Here's a quick demo to highlight the functionality
+
+To find the album id just grab last part of the share url (or just hit submit with my default one)
+
+```https://photos.app.goo.gl/L74MSFRNuyNSmrKm9``` <- this last part after the forward slash
+
+
+<form id ='photo-demo-form'>
+<label for="album_id">google photos album id:</label><br>
+<input  type="text" name= "album_id" value = "tbHcgyWN44g9qj216"> </input><br>
+<input type="submit" value="Submit">
+</form>
+
+## carousel
+<div class="center"> 
+<div id='carousel-demo'></div>
+</div>
+
+## grid
+<div class="center"> 
+<div id='grid-demo'></div>
+</div>
+
+<script type="module">
+let form = document.getElementById('photo-demo-form')
+
+form.onsubmit = (e) => {
+e.preventDefault();
+let id = new FormData(document.querySelector('#photo-demo-form')).get('album_id')
+let c = document.getElementById('carousel-demo')
+let g = document.getElementById('grid-demo')
+c.innerHTML= ''
+g.innerHTML = ''
+
+photo_function(id,"carousel-demo","carousel")
+photo_function(id,"grid-demo","grid")
+}
+</script>
 
 
 
