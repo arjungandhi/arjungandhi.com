@@ -1291,3 +1291,11 @@ code {
     color: var(--body-color);
     opacity: .5; /* Firefox */
   }
+
+.loading {
+    display: block;
+    background: url('/gifs/preloader.gif') no-repeat center center ;
+    background-size: cover;
+    aspect-ratio: 1.3333;
+    width: 30%;
+}

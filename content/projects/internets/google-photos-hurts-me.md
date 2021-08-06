@@ -64,6 +64,20 @@ let c = document.getElementById('carousel-demo')
 let g = document.getElementById('grid-demo')
 c.innerHTML= ''
 g.innerHTML = ''
+c.classList.add('loading')
+g.classList.add('loading')
+let observer_function = (mutations,observer) => {
+      mutations.forEach((mutation) => {
+          if (mutation.type === 'childList') {
+              mutation.target.classList.remove('loading')
+              observer.disconnect()
+          }})}
+[c,g].forEach((el)=> {
+let observer = new MutationObserver(observer_function)
+observer.observe(el, {
+      childList: true
+      })
+})
 photo_function(id,"carousel-demo","carousel")
 photo_function(id,"grid-demo","grid")
 }
@@ -228,6 +242,20 @@ let c = document.getElementById('carousel-demo2')
 let g = document.getElementById('grid-demo2')
 c.innerHTML= ''
 g.innerHTML = ''
+c.classList.add('loading')
+g.classList.add('loading')
+let observer_function = (mutations,observer) => {
+      mutations.forEach((mutation) => {
+          if (mutation.type === 'childList') {
+              mutation.target.classList.remove('loading')
+              observer.disconnect()
+          }})}
+[c,g].forEach((el)=> {
+let observer = new MutationObserver(observer_function)
+observer.observe(el, {
+      childList: true
+      })
+})
 photo_function(id,"carousel-demo2","carousel")
 photo_function(id,"grid-demo2","grid")
 }
