@@ -66,8 +66,8 @@ c.innerHTML= ''
 g.innerHTML = ''
 c.style = ''
 g.style = ''
-c.classList.add('loading')
-g.classList.add('loading')
+c.className='loading'
+g.className='loading'
 let observer_function = (mutations,observer) => {
       mutations.forEach((mutation) => {
           if (mutation.type === 'childList') {
@@ -244,10 +244,10 @@ let c = document.getElementById('carousel-demo2')
 let g = document.getElementById('grid-demo2')
 c.innerHTML= ''
 g.innerHTML = ''
-c.style = ''
-g.style = ''
-c.classList.add('loading')
-g.classList.add('loading')
+c.style=''
+g.style=''
+c.className='loading'
+g.className='loading'
 let observer_function = (mutations,observer) => {
       mutations.forEach((mutation) => {
           if (mutation.type === 'childList') {
