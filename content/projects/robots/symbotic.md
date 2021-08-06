@@ -17,7 +17,7 @@ draft: false
 [Symbotic](https://www.symbotic.com/) builds and automates warehouses. While moving big boxes sometimes their robots sometimes spill a variety of foods on the track and they needed away to clean it up. So they a cash prize and held a competition. WPI decided to put 5 freshman and one somophore on the project. My team and I won 2nd place and 25,000 dollars. 
 
 # What I did
-I worked and touched many different of this project working and helping out wherever needed. 
+While I worked on every aspect of this project either building or helping my teammates, I did this thing and this thing too.
 
 # Features
   - Large roller brush

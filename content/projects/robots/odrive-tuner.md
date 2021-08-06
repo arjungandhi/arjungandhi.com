@@ -15,9 +15,9 @@ draft: false
 ---
 
 
-The interface to the ODrive controller is a python library with some pretty painful-to-use CLI tools, and after a month of suffering, I had gotten pretty tired with creating jank python scripts to change and modify my parameters without any decent feedback systems.
+While doing my senior project, I had an off-shoot project to make working with the ODrive controllers we used less painful. The interface to the ODrive controller is a python library with some pretty painful-to-use CLI tools, and after a month of suffering, I had gotten pretty tired of creating jank python scripts to change and modify my parameters without any decent feedback systems.
 
-So I decided to go complete overview overkill and build a semi-decent GUI that could do all sorts of fancy things.  
+So I decided to build a semi-decent GUI that could do all sorts of fancy things.  
 
 **A forewarning:** Writing this after 8 months of coding and tuning experience, there's a lot of jank junk I did that ~~absolutely should~~ could be better. If you're super gung-ho about wanting to use it, let me know and if I have time or you buy me coffee (I also take bubble tea), I'll go through and fix all those broken things (baby modifications, big difference). Also this was my first time doing like 90% of this local-web-browser-as-a-control-UI thing so I'm definately not following any of those best practice things. 
 
@@ -28,12 +28,12 @@ In preparation for communicating with my actual robot, I wanted to make this thi
 The first library I found that seemed to do a decent job at this and didn't suck to use was [Socket.io](https://socket.io/). I used that in combination with [Flask](https://flask.palletsprojects.com/) to create a websocket and then deploy some static html, javascript, and css files to the connected users browsers.
 
 # How did you make it have such nice colors
-I wrote a CSS framework a whileback based on the [Nord](https://www.nordtheme.com/) color palette, check it out [here](pretty-please.arjungandhi.com)
+I wrote a CSS framework a while back based on the [Nord](https://www.nordtheme.com/) color palette, check it out [here](pretty-please.arjungandhi.com)
 
 # Results 
 
 ## Stuff that Works
-- Connecting to, Rebooting and Clearing Errors of the ODrive.
+- Connecting to the ODrive, Rebooting the Controller, and Clearing Errors
 - Live Reporting on any errors that occurred for the axis that was being
 worked on.
 - Live Readout of Encoder Position, Voltage, and Current State.

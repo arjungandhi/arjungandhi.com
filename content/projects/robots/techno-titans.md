@@ -15,7 +15,7 @@ draft: false
 
 # The Blurb
 
-My first deep dive into robotics was my highschool robotics team. There I worked on robots for vex, [BEST](https://www.bestrobotics.org/site/), and [FRC](https://www.firstinspires.org/robotics/frc).
+My first deep dive into robotics was my high school robotics team. There I worked on robots for VEX, [BEST](https://www.bestrobotics.org/site/), and [FRC](https://www.firstinspires.org/robotics/frc).
 
 # Other stuff I did while I was there
   - lead mechanical sub-team for 2 years
