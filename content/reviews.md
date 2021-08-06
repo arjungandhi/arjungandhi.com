@@ -4,6 +4,7 @@ date: 2019-03-08
 description: how world perceive monke
 type: notposts
 layout: reviews
+review_form: https://forms.gle/px1z1xqvuv7JC5DJ9
 ---
 {{< blockquote author="Katherine Crighton - Administration, Robotics Engineering Department" link="http://robotics.wpi.edu" >}}
 I participated for more than a year as a staff-representative in a Discord server that was developed and moderated by a team of dedicated students, of which Arjun was one. This server, previously an underutilized resource, was reinvigorated by this team to help the WPI Robotics student population maintain a sense of community even in the face of the unexpected separation caused by the COVID-19 pandemic. Arjun was one of the primary moderators that I interacted with, and I had the pleasure of seeing firsthand the significant work he put into creating a positive, welcoming space in what can be a contentious online environment. This work ranged from active engagement with users to promote participation across multiple diverse topics and threads, to creating server-specific bots and emotes at user request and in response to the developing culture of the community, to working with myself, other staff, and faculty to ensure that the server was not only a social space, but a recreation of the kind of service and assistance students could find within the Robotics Engineering major. While the original moderation team all had a hand in creating this important, vibrant resource, I credit Arjun greatly with demonstrating and promoting on the server the spirit of inclusivity, humor, comradeship, and multidisciplinary excellence that exemplifies what it is to be a WPI Robotics Engineer.
@@ -32,3 +33,4 @@ Often, Arjun would stay up in the wee hours of the night/morning to help student
 
 A single message won't do justice to Arjun's character. The only way to understand how grateful we are to him is to join his fun.
 {{< /blockquote >}}
+
