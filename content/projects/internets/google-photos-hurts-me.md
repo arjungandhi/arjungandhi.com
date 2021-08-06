@@ -12,57 +12,59 @@ categories:
 draft: false
 ---
 
-Listen, I know normally when I start projects I start off the deep end then keep going, but I swear. This one started out normal. 
+Listen, I know I normally start projects off the deep end and then keep going, but I swear this one started out normal. 
 
-All I wanted to do. was embed an itsy bitsy little carousel with my photos and videos a projects into this site. I keep my photos in google photos, because its good, and you know its **Google** they had this feature like 10 years ago or what ever with Picasa. There's no way they just chucked that feature out the windows and watch the world burn right? (<- *they totally fucking did those rat bastards*)
+All I wanted to do was embed an itsy bitsy little carousel with project photos and videos into this site. All it had to do was neatly display pictures and live update from the Google Photos album I use for storage. It's **Google** - They had this embed feature like 10 years ago with Picasa. There's no way they just chucked that feature out the windows and watched the world burn right? [(<- *They totally fucking did those rat bastards*)]
 
-# the katabasis
+# Part I: The Katabasis
 
-Okay, but like surely there's a third party service that just you know turns your photo album link, into a little photo carousel, and bobs your uncle. 
+Okay, but like surely there's a third party service that just turns your photo album link into a little photo carousel.
 
 [There is!](https://www.publicalbum.org/blog/) 
 
-This guy's tool does it! But it doesn't auto update.... every time you upload a new photo you gotta re run and re copy and paste his snip it in....... and you can't do videos.
+This guy's tool does it! 
+....But it doesn't auto-update from album changes
+....And you can't do videos
 
-That sounds like effort. 
+Building from scratch still sounds like too much effort. 
   
     
-
-Okay you know google's got their cloud services. They've probably got a great photo's API. I used their cloud compute services all of like one time but I'm pretty handy with AWS, I'm sure it'll be fine. 
+Okay, Google's got their cloud services. They've probably got a great Google Photos API. I used their cloud compute services all of like one time but I'm pretty handy with AWS, I'm sure it'll be fine. 
 
 {{< figure src="https://i.imgur.com/8fNIfjn.png" >}}
 
-Oh what the fuck its a public link sharing album why the hell do I need OAuth?
+It's a public link sharing album... why the hell do I need OAuth?
 
 
 
-Okay fuck fuck uhhhh. github... yeah yeah... everyone has a github! there's no way there's not some nerd that wrote a npm package or something that just does this perfectly no questions asked. 
+Okay fuck fuck uhhhh. 
+Github... yeah yeah... everyone has a Github! There's no way there's not some nerd that wrote a npm package or something that just does this perfectly no questions asked. 
 
-Ah. shit is that PHP. Who even uses that anymore.
+There is! In PHP :( 
 
 
-# arjun starts reverse engineering googles shit. 
+# Part II: Reverse Engineering Google's Shit. 
 
-Okay so turns out the public google photos have like a permanent public link to em, and a get request to the album link and a a little bit a regex and you can pretty easily figure them out. 
+Public Google Photos albums have a permanent public link. With some elbow grease (*cough* regex and a GET request), you can pretty easily figure them out. 
 
-All the urls look like this
+All the urls look like this:
 
 ```
 https://lh3.googleusercontent.com/pw/ACtC-3ey3tCB-Qxgi5WBq5tSq_-vyysVr27GClmcYaJxecmLssKdOsFivD0c6zGaAzQGZSKXJZpWXNez2q2MSAxkiL2d8AlZHnoWrNbGH8U2lgMHma-efg93QctIuns9dByUqY01TlVMfIHe3dfbDpL3gkn2=w1769-h986-no
 ```
 
-Even nicer that `wXXX-hXXX` you see at the end of the url let you specify a size to pull the image in. Literally 10 line of javascript I was done easy project. 
+The `wXXX-hXXX` you see at the end of the url let you specify a size to pull the image in. Literally 10 lines of javascript and I was most of the way done, easy project. 
 
 
-## enter hell
+## Part III: Enter Hell
 
-See I wanted to also have my little photo carousel have videos. 
+See, I also wanted my little photo carousel to have videos. 
 
 Why? 
 
-Well while pictures of robots are good. videos are gooder. 
+Well, while pictures of robots are good. Videos are gooder. 
 
-Also
+Also:
 
 ```python
 #!/bin/python
@@ -77,33 +79,30 @@ video = picture * 60 * seconds
 >>> "goodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgoodgood"
 ```
 
-Okay, so after staring at google photos album for far to many hours. I've learned a couple things. 
+Okay, so after staring at this Google Photos album for far too many hours, I've learned a couple things. 
 
 Google loads videos in 2 scenarios. 
 
-1. When you click on a video and it pulls it up. 
-    - the problem is its a api between them and youtube and the source data doesn't contain a permanent link to the data rather its some sort of blob. So I can't embed that. 
+1. When you click on a video, it pulls it up. 
+    - The problem is it's an internal API call and the source data doesn't contain a permanent link to the data so I can't embed that.
 
-2. Sometimes when I load the site I notice google enables a video on hover feature. 
-    - Watching the html while that happens.. Gotcha! a html video tag with a url as the source 
-
-
-Going to the URL its the independent video! 
+2. When you hover over a video, Google also loads that video.
+    - I was watching the HTML change when that happens and Gotcha! When you hover over a video, it returns an HTML tag with a permanent data source url that can be embedded.
 
 Now how do I get this link automatically. I could scrape it but that would suck and be slow 
 
 Out of curiosity I diffed the link of the picture I get when I make the get request and its corresponding video and voila! 
 
-Their almost identical! 
+They're almost identical! 
 
 The end of the photo link: `=w1769-h986-no`
 The end of the video link `=m134?sq=0&sq_end=1`
 
-So running some tests with in jupyter notebook [here](https://github.com/arjungandhi/google-photos-yoinker/blob/master/testing/hippity%20hoppity%20your%20photos%20are%20now%20my%20property.ipynb) by get requesting second variation of each base photo link game me a 200 status code I could check if the media item was a photo or a video!
+After doing some tests in Jupyter Notebook [here](https://github.com/arjungandhi/google-photos-yoinker/blob/master/testing/hippity%20hoppity%20your%20photos%20are%20now%20my%20property.ipynb) I realized the GET request returned a status code that could verify whether the item was a photo or a video!
 
-I can also can try using the response url as the source of the video and it should work!
+The response URL from the vide could also be used as the video source!
 
-I'm gonna stop here for now while writing this post I thought of a couple more things to experiment with and I'll be back with the results.
+I'm gonna stop here for now... while writing this post I thought of a couple more things to experiment with and I'll be back with the results.
 
 
 

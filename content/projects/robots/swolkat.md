@@ -126,7 +126,7 @@ This is a dog. Interms of anatomy (dogs, cats, cheetahs, horses, humans) their a
 
 Since we are trying to make a quadruped that walks we figured we should start with an animal that already does it. So dogs have 4 degrees of freedom in their legs. 2 in the hips 1 in the knee and 1 in the ankle. So we decided to copy that and gave the dog 3 DOF legs. 
 
-Now the brightest among you might notice that 4 != 3. You are indeed correct. The ankle joint in quadruped movment while useful for fast movements and storing energy is really just a extra bit of complexity that we really don't need in this project. So we like most quadrupeds have chosen to ignore it for now. 
+Now the brightest among you might notice that 4 != 3. You are indeed correct. The ankle joint in quadruped movment, while useful for fast movements and storing energy, is really just a extra bit of complexity that we really don't need in this project. So we, like most quadrupeds, have chosen to ignore it for now. 
 
 Now in order to design a quadruped leg of your own that may work the solution is simple. 
 
@@ -140,64 +140,67 @@ Bingo bango Boongo 6-9 months later and you've given birth do to a beautiful leg
 
 ## Making it move
 
-Okay, so while my partners were working on designing and builidng the real robot I wanted to be doing something too. So I began writing the code base. 
+While my partners were working on designing and builidng the real robot I wanted to be doing something so I began writing the code base. 
 
-Okay, so my goal when writing this code base was 2 fold: 
+My goal when writing this code base was 2-fold: 
 1. I wanted to be able to run a virtual version of the leg and the real leg with the same code. 
 2. I didnt want to have to completely rewrite this code for the full quadruped. 
 
 
 {{< figure src="https://lh3.googleusercontent.com/S0cuGUMFVpYTm8h8WBLve5joS3B49C7Mf5tqxdLhNivh8eqp7jZncGndHFiOJCzCf_J_kJm__WyL11NxFZzsql4PrgLKCXR5MtNcdkCNdZ7FehGDPA8tSsI4ty8tYvt1qWHj1X4LGA=w2400" alt="image" class="left" >}}
 
-So I came up with this cute little class structure. There's a couple cool things about this. Notice how the leg class, can send values to either the Joint or the Virtual Joint. Basically I created 2 joint objects, one communicates with the actual controller we are using, and the other just pretends to communicate to the controller. You can make the leg with any combinations of the two and the leg class will just work. This structure proved to just be the best. It allowed me to completely test all my math on virtual legs and with in a few moment run any number of joints to see if they were working as I wanted. 
+So I came up with this cute little class structure. There's a couple cool things about this. 
+
+Notice how the leg class can send values to either the Joint or the Virtual Joint. Basically I created 2 joint objects, one communicates with the actual controller we are using, and another that just pretends to communicate to the controller. You can make the leg with any combinations of the two and the leg class will just work. This structure proved to just be the best. It allowed me to completely test all my math on virtual legs and with in a few moment run any number of joints to see if they were working as I wanted. 
 
 The other nice thing is you could create a variety of joint objects to communicate with all sorts of different controllers, as long as it followed the base class structure it would just **work** 
 
-Now yes yes this is the basis of object oriented design, but you'd be suprised how quick that goes out the window the minuite any real hardware is involved. 
+Now, this is the basis of object oriented design, but you'd be suprised how quick that goes out the window the minute any real hardware is involved. 
 
-As normal after a couple weeks of attempting to debug via a terminal and print statements, I got fed up. 
+As normal, after a couple weeks of attempting to debug via a terminal and print statements, I got fed up. 
 
 So like last time I created another web GUI to control and test the leg. 
 {{< figure src="https://lh3.googleusercontent.com/pw/ACtC-3ey3tCB-Qxgi5WBq5tSq_-vyysVr27GClmcYaJxecmLssKdOsFivD0c6zGaAzQGZSKXJZpWXNez2q2MSAxkiL2d8AlZHnoWrNbGH8U2lgMHma-efg93QctIuns9dByUqY01TlVMfIHe3dfbDpL3gkn2=w1769-h986-no?authuser=0" class="big">}}
 
-This Gui had all the neat features of the last tool I made and testing way easier it also was able to show the live position of the robot arm in the browser it's self. 
+This GUI had all the neat features of the last tool I made making testing way easier. It also was able to show the live position of the robot arm in the browser itself. 
 
 ## The Math. DUN DUN DUN
 
-Generally when your moving a robot arm around you want to be able to control where the end of it is and how the end of it moves (task space). Unfortuantely, we can only control the angles of each joint of the robot (joint space). Because of this we need to do some math, and figure out how to convert between joint space and task space. 
+Generally, when you're moving a robot arm around, you want to be able to control where the end of it is and how the end of it moves (task space). Unfortunately, we can only control the angles of each joint of the robot (joint space). Because of this, we need to do some math and figure out how to convert between joint space and task space. 
 
-For postion this conversion is called Forward and Inverse Kinematics and are a pretty well studied thing in robotics.
+For position, this conversion is called Forward and Inverse Kinematics and is a well-studied thing in Robotics.
 
-Unfortunately sometimes position control just doesnt cut it. Sometimes you want to be able to control the velocity, and forces on the end effector (tip) as well. 
-Again we have math that can do this, and is generally known as Velocity Kinematics. (Velocity Kinematics lets us do both velocity and force control on the robot)
+Unfortunately, sometimes position control just doesnt cut it. Sometimes you want to be able to control the velocity and forces on the end effector (tip) as well. 
 
-I'm not gonna rederive the math for them here, if you want to see how it was done you can find it all in our [paper](https://books.arjungandhi.com/Robotics/mqp-report.pdf), (its alot of matrixies)
+Again we have math that can do this, and is generally known as Velocity Kinematics. (Velocity Kinematics lets us do both velocity and force control on the robot.)
 
-The end result of this with a little bit of trajectory generation and gait control (I'll cover this later) is 
+I'm not gonna rederive the math for them here, if you want to see how it was done you can find it all in our [paper](https://books.arjungandhi.com/Robotics/mqp-report.pdf). (Warning: It's alot of matrices)
+
+The end result of this (with a little bit of trajectory generation and gait control that's covered later) is: 
 
 {{< youtube mMwvLhEuTUQ >}}
 
-(I found out later that we accidently set the currently limit on the motors to like 2 amps which meant it was struggling to move the leg around in the air, keep reading the steps look alot cooler later on)
+(I found out later that we accidently set the current limit on the motors to like 2 amps which meant it was struggling to move the leg around in the air. Keep reading...the steps look a lot cooler later on.)
 
-# Now do it again but more. 
+# Now Do It Again. But more. 
 
-Okay now you can control a leg in space. Congrats 🎉. The next step is attempting to coordinate 4 of those at once. Now in my several years of suffering through robot debugging hell. I've learned one of the best ways to debug broken robots is to see what its actually doing.
+Now you can control a leg in space. Congrats 🎉. The next step is attempting to coordinate 4 of those at once. Now in my several years of suffering through robot debugging hell, I've learned one of the best ways to debug broken robots is to see what it's actually doing.
 
-## Visulaization 
+## Visualization 
 
-To help with this I plotted the 4 corners of the robot and each of the legs, this provided a useful tool to help debug a whole bunch of issues with the robot.
+To help with this I plotted the 4 corners of the robot and each of the legs in an interactive graph in Jupyter Notebook. This provided a useful tool to help debug a whole bunch of issues with the robot.
 
-After many, **many** hours of debugging and a making a good bit of progress towards looking more and more like my father. Here's a cool video of it walking around in the visualization enviroment
+After many, **many** hours of debugging and making a good bit of progress towards looking more and more like my father, I got these results, forever saved in this cool video of it walking around in the visualization environment.
 
 {{< youtube 59Iai2ZQGe0 >}}
 
-Using the visualization I was able to test a majority of the gaits before the robot was ever built.
+Using the visualization, I was able to test a majority of the gaits before the robot was ever built.
 
 ## Golly Gee Lets Get Gaited 
 
-In simple terms gaits are patterns that describe the motion of the four legs of the quadruped. There's a huge variety of gaits that dogs and other four legged creatures use to traverse. During this project I programmed four of them. I'll breifly cover each of the four I programmed and some pretty videos, however if you want more details about how each gait worked or detail flow charts for the logic. (As well other nonsense we had to implement inorder to make the damn thing work), again [paper](https://books.arjungandhi.com/Robotics/mqp-report.pdf).
+In simple terms, gaits are patterns that describe the motion of the four legs of the quadruped. There's a huge variety of gaits that dogs and other four legged creatures use to traverse and during this project, I programmed four of them. I'll briefly cover each of the four I programmed along with some pretty videos, but more gait implementation details + additional complicated nonsense can be found again in [paper](https://books.arjungandhi.com/Robotics/mqp-report.pdf).
 
-### Wiggle Gait (no idea what its actually called but I call cause it makes the robot wiggl)
+### Wiggle Gait (No idea what it's actually called but I call cause it makes the robot wiggle)
 The wiggle gait tries to keep the feet of the robot on the ground while moving the body around. 
 
 {{< youtube U84VOgEOHHI >}}
@@ -215,15 +218,14 @@ The trot gait tries to move the robot body forward at a constant velocity while 
 
 
 ### Intermittent Crawl Gait 
-The intermittent crawl Gait consists of 2 major movements: First the body is
-moved to the center of the triangle formed by the 3 grounded legs, then the stepping leg is moved forward
+The intermittent crawl Gait consists of 2 major movements. First, the body is moved to the center of the triangle formed by the 3 grounded legs, then the stepping leg is moved forward
 
 {{< youtube 8ohMD32n8FU >}}
 
 
 # The Results 
 
-Unfortunately at the end of the day the robot didnt walk due to some major mechanical limitations in the belt transmission. But I learned a whole lot and this isnt the end of quadrupeds for me. Here some fun photos/videos of legs the robot. 
+While the robot didn't walk due to major mechanical limitations in the belt transmission, I learned a whole lot. This isn't the end of quadrupeds for me, but it is the end of this post. Here's some fun photos/videos of legs the robot!
 
 # Photos/Videos
 {{< google-photos tbHcgyWN44g9qj216  >}}
