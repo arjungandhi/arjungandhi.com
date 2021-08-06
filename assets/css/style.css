@@ -1330,3 +1330,12 @@ code {
 .contact {
     margin: 1em 0;
 }
+
+.active-review-title {
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}
+
