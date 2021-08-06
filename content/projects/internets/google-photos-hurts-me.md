@@ -64,6 +64,8 @@ let c = document.getElementById('carousel-demo')
 let g = document.getElementById('grid-demo')
 c.innerHTML= ''
 g.innerHTML = ''
+c.style = ''
+g.style = ''
 c.classList.add('loading')
 g.classList.add('loading')
 let observer_function = (mutations,observer) => {
@@ -242,6 +244,8 @@ let c = document.getElementById('carousel-demo2')
 let g = document.getElementById('grid-demo2')
 c.innerHTML= ''
 g.innerHTML = ''
+c.style = ''
+g.style = ''
 c.classList.add('loading')
 g.classList.add('loading')
 let observer_function = (mutations,observer) => {
