@@ -1326,3 +1326,7 @@ code {
     aspect-ratio: 1.3333;
     width: 30%;
 }
+
+.contact {
+    margin: 1em 0;
+}

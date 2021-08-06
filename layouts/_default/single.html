@@ -5,6 +5,7 @@
         <img class="post-thumbnail" src="{{ .Params.thumbnail | absURL }}" alt="Thumbnail image">
         {{ end }}
         <div class="post-title">
+            {{ if (isset .Params "title") }}
             <h1>{{ .Title }}</h1>
             {{ if eq .Type "post"}}
             <div class="info">
@@ -16,6 +17,7 @@
                 <em class="fas fa-stopwatch"></em>
                 <span class="reading-time">{{ i18n "reading_time" .ReadingTime }}</span>
             </div>
+            {{ end }}
             {{ end }}
             {{- $sectionDelimiter := "<end-tldr>" -}}
                 {{- $contentSections := split .Content $sectionDelimiter -}}
@@ -30,7 +32,9 @@
                 {{- end -}}
         </div>
     </div>
+    {{ if (isset .Params "title") }}
     <hr />
+    {{ end }}
     
     <div class="post-content">
     {{- if gt (len $contentSections) 1 -}}
@@ -46,9 +50,9 @@
     </div>
     {{- end -}}
 
-    {{- if (eq .Params.contact true) -}}
+
     {{- partial "contact.html" . -}}
-    {{- end -}}
+
     </div>
 
 </div>
