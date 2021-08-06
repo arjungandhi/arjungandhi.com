@@ -81,16 +81,22 @@ url = "/"
 weight = 100
 
 [[menu.main]]
+identifier = "reviews"
+name = "What Do People Think?"
+url = "/reviews/"
+weight = 200
+
+[[menu.main]]
 identifier = "projects"
 name = "Stuff I've Done"
 url = "/projects/"
-weight = 200
+weight = 300
 
 [[menu.main]]
 identifier = "contact"
 name = "Contact"
 url = "/contact/"
-weight = 300
+weight = 400
 
 #Allow Unsafe building
 [markup.goldmark.renderer]

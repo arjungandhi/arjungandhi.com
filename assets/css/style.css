@@ -209,6 +209,7 @@ a:hover, a:active {
 }
 
 .page-top .nav {
+    text-transform: lowercase;
     list-style: none;
     padding: 11px 30px;
     float: left;
@@ -293,6 +294,7 @@ a:hover, a:active {
 }
 
 .sidebar .logo-title .description {
+    text-transform: lowercase;
     font-size: 14px;
 }
 
@@ -306,7 +308,7 @@ a:hover, a:active {
 }
 
 .sidebar .logo-title .title h3 {
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-size: 2rem;
     font-weight: bold;
     letter-spacing: 2px;
@@ -353,7 +355,7 @@ a:hover, a:active {
 }
 
 .post .post-title h1 {
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 1px;
     line-height: 1;
     display: inline-block;
@@ -365,7 +367,7 @@ a:hover, a:active {
 }
 
 .post .post-title h2 {
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 1px;
     font-size: 28px;
     line-height: 1;
@@ -374,7 +376,7 @@ a:hover, a:active {
 }
 
 .post .post-title h3 {
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 1px;
     line-height: 1;
     font-weight: 600;
@@ -404,12 +406,33 @@ a:hover, a:active {
     color: var(--link-color);
 }
 
-.post .post-content h3 {
+.post .post-content h1 {
+    text-transform: lowercase;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.post .post-content h2 {
+    text-transform: lowercase;
     font-size: 22px;
     font-weight: 600;
 }
 
+.post .post-content h3 {
+    text-transform: lowercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.post .post-content h3 {
+    text-transform: lowercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .post .post-content h4 {
+    text-transform: lowercase;
     /* color: var(--heading-color); */
     font-size: 16px;
 }
@@ -635,6 +658,7 @@ a:hover, a:active {
 }
 
 .list-with-title .listing-title {
+    text-transform: lowercase;
     font-size: 24px;
     color: #D8DEE9;
     font-weight: 600;
@@ -646,6 +670,7 @@ a:hover, a:active {
 }
 
 .list-with-title .listing .listing-post {
+    text-transform: lowercase;
     padding-bottom: 5px;
 }
 
@@ -974,13 +999,14 @@ a.btn {
         line-height: 2.5;
         padding: .5rem .75rem;
         position: relative;
-        text-transform: uppercase;
+        text-transform: lowercase;
         text-align: center;
         font-size: 1.3em;
     }
     .page-top .nav a.current {
         border-bottom: none;
     }
+
     .navbar-burger {
         cursor: pointer;
         display: block;

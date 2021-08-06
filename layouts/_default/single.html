@@ -31,7 +31,8 @@
         </div>
     </div>
     <hr />
-
+    
+    <div class="post-content">
     {{- if gt (len $contentSections) 1 -}}
     <div id="tldr-content">
         {{ index $contentSections 0 | .RenderString }}
@@ -48,6 +49,7 @@
     {{- if (eq .Params.contact true) -}}
     {{- partial "contact.html" . -}}
     {{- end -}}
+    </div>
 
 </div>
 <div class="post-footer">
