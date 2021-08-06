@@ -1276,6 +1276,7 @@ a.btn {
 .toggle-container {
     text-align: right;
     float: right;
+    margin: 0 .5em  ;
 
 }
 
