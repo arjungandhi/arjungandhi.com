@@ -1,5 +1,6 @@
 {{- $id := .Get "id" | default (.Get 0) -}}
 {{- $type := .Get "type" | default (.Get 1) -}}
+{{- $width := .Get "width" | default (.Get 2) -}}
 
 {{ $seed := now }}
 <!--generate a random seed to avoid id's matching up-->
@@ -7,7 +8,7 @@
 
 
 <div class="center">
-    <div id="{{$id}}{{ $random }}" class="loading"></div>
+    <div id="{{$id}}{{ $random }}" class="loading" {{ if $width}}style="width:{{$width}}%"{{end}}></div>
 </div>
 <script type="module">
     let container_div = document.getElementById("{{$id}}{{ $random }}")
