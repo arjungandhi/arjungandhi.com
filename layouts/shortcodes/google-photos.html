@@ -8,8 +8,8 @@
 
 
 <div class="center">
-    <div {{ if $width}}style="width:{{$width}}%"{{end}}>
-    <div id="{{$id}}{{ $random }}" class="loading" ></div>
+    <div {{ if $width}}style="width:{{$width}}%"{{else}}class="center" style="width: 100%;"{{end}}>
+         <div id="{{$id}}{{ $random }}" class="loading" ></div>
     </div>
 </div>
 <script type="module">

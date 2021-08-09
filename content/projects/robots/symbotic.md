@@ -25,8 +25,7 @@ While I worked on every aspect of this project either building or helping my tea
   - Front mechanism is actuated up to avoid collisions
   - Water sprayers for particularly sticky messes 
 
-# Photos/Videos
-<!--{{< google-photos tbHcgyWN44g9qj216 carousel >}}-->
+# CAD
 
-Coming Soon
+{{< fusion SH919a0QTf3c32634dcfbca45ead07493d62 >}}
 

@@ -1,6 +1,6 @@
 ---
 title: "Student Assistant"
-date: 2021-06-04T19:55:32-04:00
+date: 2020-06-04T19:55:32-04:00
 description: "oh my god i've seen the dumbest issues"
 tags:
   - debugging

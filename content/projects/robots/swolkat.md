@@ -43,9 +43,11 @@ On this project I was primarily responsible for the programming and controls of 
 
 # Links:
 - [paper](https://books.arjungandhi.com/Robotics/mqp-report.pdf)
+- [github](https://github.com/swol-kat)
 
 # Photos/Videos
 {{< google-photos tbHcgyWN44g9qj216 carousel >}}
+
 
 <end-tldr>
 
@@ -226,6 +228,13 @@ The intermittent crawl Gait consists of 2 major movements. First, the body is mo
 # The Results 
 
 While the robot didn't walk due to major mechanical limitations in the belt transmission, I learned a whole lot. This isn't the end of quadrupeds for me, but it is the end of this post. Here's some fun photos/videos of legs the robot!
+
+# Links:
+- [paper](https://books.arjungandhi.com/Robotics/mqp-report.pdf)
+- [github](https://github.com/swol-kat)
+
+# CAD
+{{< fusion SH919a0QTf3c32634dcfcf7fb8a01154b1fb >}}
 
 # Photos/Videos
 {{< google-photos tbHcgyWN44g9qj216 grid >}}

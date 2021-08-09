@@ -1,7 +1,7 @@
 ---
 title: "Techno Titans"
 date: 2017-07-01T00:48:00-04:00
-description: "Bring out the sacrificial freshman"
+description: "bring out the sacrificial freshman"
 tags:
   - northview 
   - mechanics
@@ -27,10 +27,18 @@ My first deep dive into robotics was my high school robotics team. There I worke
 - [Techno Titans Website](https://www.technotitans.org/)
 - [Techno Titan Youtube Channel](https://www.youtube.com/channel/UCfS5l_F-lU0i6RGED0vKurg/featured)
 
-# Photos/Videos
+# CAD
+## Kronos (Tshirt Cannon)
+{{< fusion SH919a0QTf3c32634dcf8b528a03efb7f3e2 >}}
 
-Coming soon! 
+## FRC 2017
+{{< fusion SH919a0QTf3c32634dcf2c31a2c9db771399 >}}
 
-<!--{{< google-photos tbHcgyWN44g9qj216 carousel >}}-->
+## FRC 2016
+{{< fusion SH919a0QTf3c32634dcf832df654919ee63d >}}
 
+## FRC 2015
+{{< fusion SH919a0QTf3c32634dcf3a1e29fc27a5a48c >}}
 
+## BEST 2015
+{{< fusion SH919a0QTf3c32634dcf9cadc8a0c32f3569 >}}

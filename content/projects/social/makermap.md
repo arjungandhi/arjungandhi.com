@@ -1,6 +1,6 @@
 ---
 title: "Maker Map"
-date: 2021-07-01
+date: 2020-07-01
 description: "i stalked tools for the good of society"
 tags:
   - social
