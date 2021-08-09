@@ -1,6 +1,6 @@
 ---
 title: "Urgent Diagnostics"
-date: 2021-08-08T16:31:57-04:00
+date: 2021-06-08T16:31:57-04:00
 description: ""
 tags:
   - lambda

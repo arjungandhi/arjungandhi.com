@@ -6,7 +6,7 @@ author: Arjun Gandhi
 
 I'm Arjun. I look like this:
 
-{{< google-photos MD7BwFZTrSR9Z12L6 carousel>}}
+{{< google-photos MD7BwFZTrSR9Z12L6 carousel 50>}}
 
 I make robots, and write software. 
 
@@ -14,7 +14,7 @@ This site is where I dump info about stuff I've done, posts vary from straight p
 
 If you're short on time hit the toggle switch on the top of the long posts to turn on TLDR mode.
 
-## hire Me! 
+## hire me! 
 
 I work on a variety of projects from scalable cloud infrastructure to high DOF robots. I love hard problems and I love to work with people. If you have a project you'd like to hire me for shoot me an [email](/contact)
 
