@@ -13,8 +13,8 @@ tags:
   - generative
 categories:
   - art
-draft: flase
-
+draft: false
+summary: simulating life and death with raindrops
 ---
 
 

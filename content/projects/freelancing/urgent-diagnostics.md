@@ -13,6 +13,7 @@ tags:
 categories:
   - freelancing
 draft: false
+summary: proof of concept to ease the ent diagnostic process in urgent cares
 ---
 
 # The Blurb

@@ -33,7 +33,6 @@ doNotLoadAnimations = false
 images = ["images/site-feature-image.png"]
 mainSections = [""]
 # Form Spree Contact Form
-contactFormAction = "https://formspree.io/f/xknkjwwp"
 # Google Site Verify
 # googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 # indexDateFormat = "Mon, Jan 2, 2006"
@@ -93,10 +92,16 @@ url = "/projects/"
 weight = 300
 
 [[menu.main]]
+identifier = "blog"
+name = "Latest Projects"
+url = "/blog/"
+weight = 400
+
+[[menu.main]]
 identifier = "contact"
 name = "Contact"
 url = "/contact/"
-weight = 400
+weight = 500
 
 #Allow Unsafe building
 [markup.goldmark.renderer]

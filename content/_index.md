@@ -6,7 +6,7 @@ author: Arjun Gandhi
 
 I'm Arjun. I look like this:
 
-{{< google-photos MD7BwFZTrSR9Z12L6 carousel 50>}}
+{{< google-photos MD7BwFZTrSR9Z12L6 carousel 40 >}}
 
 I make robots, and write software. 
 

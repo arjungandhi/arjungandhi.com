@@ -11,6 +11,7 @@ tags:
 categories:
   - freelancing
 draft: false
+summary: identifying child care shortages with custom software
 ---
 
 # The Blurb

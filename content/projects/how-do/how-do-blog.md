@@ -10,6 +10,7 @@ categories:
   - internets
 math: false
 toc: true
+summary: how did i make this site
 ---
 
 ## Why I chose this framework

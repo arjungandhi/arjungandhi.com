@@ -15,7 +15,7 @@ tags:
 categories:
   - art
 draft: false
-
+summary: demonstrating the branching nature of your life as a tree
 ---
 
 <div class= "pretty container" id = 'twee-box'></div>
@@ -23,7 +23,7 @@ draft: false
 ---
 ### About The Project
 
-Life and the path we walk can be thought of as a tree, each desicion we make representing a different branch, a different path we choose to follow. So this project is all about generating a tree that represents your future. 
+Life and the path we walk can be thought of as a tree, each decision we make representing a different branch, a different path we choose to follow. So this project is all about generating a tree that represents your future. 
 
 #### How to use it
 

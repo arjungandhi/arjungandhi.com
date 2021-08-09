@@ -1,7 +1,7 @@
 ---
 title: "Swol Kat"
 date: 2021-07-01
-description: "Building a Quadruped, I think"
+description: "building a quadruped, i think"
 tags:
   - python
   - c++ 

@@ -1339,3 +1339,7 @@ code {
     display: none;
 }
 
+hr {
+    opacity: .6;
+    border: 1px solid;
+}

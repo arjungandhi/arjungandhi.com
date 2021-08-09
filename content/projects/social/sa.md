@@ -15,6 +15,7 @@ tags:
 categories:
   - social
 draft: false
+summary: "for some reason they trusted me to teach other students"
 ---
 
 # The Blurb
@@ -28,9 +29,4 @@ After my misadventures as a student in the senior level robotics courses for som
   - Developed and documented lab materials 
   - Got really good at debugging and understanding other peoples code quickly
   - Distributed 50 ducks to enforce the power of the rubber ducky method 
-
-# Photos/Videos
-<!--{{< google-photos tbHcgyWN44g9qj216 carousel >}}-->
-
-Coming Soon!
 

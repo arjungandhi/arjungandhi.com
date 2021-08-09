@@ -14,7 +14,7 @@ tags:
 categories:
   - art
 draft: true
-
+summary: "an art project that scares you away from other humans"
 ---
 
 ### Inputs

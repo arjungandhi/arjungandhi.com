@@ -1,7 +1,7 @@
 ---
 title: "Maker Map"
 date: 2021-07-01
-description: "i stalked tools the good of society"
+description: "i stalked tools for the good of society"
 tags:
   - social
   - iqp 

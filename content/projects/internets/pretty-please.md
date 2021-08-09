@@ -10,6 +10,7 @@ tags:
 categories:
   - internets
 draft: false
+summary: i wrote a css framework 
 ---
 
 <script>

@@ -13,6 +13,7 @@ tags:
 categories:
   - internets
 draft: false
+summary: google removed the good features so I did it my self. 
 ---
 # The Blurb
 

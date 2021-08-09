@@ -12,6 +12,7 @@ tags:
 categories:
   - robots
 draft: false
+summary: "overkill tuning tool for motors"
 ---
 
 
