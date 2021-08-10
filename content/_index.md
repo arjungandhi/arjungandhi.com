@@ -20,7 +20,7 @@ I work on a variety of projects from scalable cloud infrastructure to high DOF r
 
 ## work with me! 
 
-I love fun hobby projects too! I list all my want-to-do projects [here](https://ideas.arjungandhi.com). If you're interested in one [contact me](/contact). I love helping out and learning about other peoples projects, so let me know if you're doing something cool and need some help! 
+I love fun hobby projects too!. If you're interested in one [contact me](/contact). I love helping out and learning about other peoples projects, so let me know if you're doing something cool and need some help! 
 
 ## freetime 
 
