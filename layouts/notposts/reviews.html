@@ -10,7 +10,7 @@
             <h1 id='review_titles'>
                 {{ range $i, $val := $title_sections}}
                 <text id='review_title_{{$i}}' {{ if eq $i 0}}class='active-review-title' {{ end }}
-                    onclick='switch_review(this)'>{{ trim $val " "}}</text>
+                    onclick='switch_review(this)' style="cursor: pointer;">{{ trim $val " "}}</text>
                 {{ if lt $i (sub (len $title_sections) 1)}}|{{ end }}
                 {{ end }}
             </h1>

@@ -8,9 +8,7 @@
 
 
 <div class="center">
-    <div {{ if $width}}style="width:{{$width}}%"{{else}}class="center" style="width: 100%;"{{end}}>
-         <div id="{{$id}}{{ $random }}" class="loading" ></div>
-    </div>
+         <div id="{{$id}}{{ $random }}" {{ if $width}}style="width:{{$width}}%; min-width: 300px;"{{end}} class="loading" ></div>
 </div>
 <script type="module">
     let container_div = document.getElementById("{{$id}}{{ $random }}")
