@@ -29,7 +29,7 @@ My first deep dive into robotics was my high school robotics team. There I worke
 
 # CAD
 ## Kronos (Tshirt Cannon)
-{{< fusion SH919a0QTf3c32634dcf4636cac31b26545c >}}
+{{< fusion SH919a0QTf3c32634dcfe5ea38970e68ca27 >}}
 
 ## FRC 2017
 {{< fusion SH919a0QTf3c32634dcf2c31a2c9db771399 >}}
