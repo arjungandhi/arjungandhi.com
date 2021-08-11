@@ -27,7 +27,7 @@ I participated for more than a year as a staff-representative in a Discord serve
 {{< blockquote author="Yoni Weiner" link="https://www.linkedin.com/in/yweiner/" >}}
 Arjun is the person you call when you just can't figure out how to solve something, then he proposes simultaneously the wildest and most elegant solution to your problem you will ever hear.
 {{< /blockquote >}}
-
+<br/>
 {{< blockquote author="Annie Fan" link="https://www.linkedin.com/in/tian-yu-fan-095270205/" >}}
 Arjun's stupid ideas will induces stress to all individuals within a 100ft radius. Despite the constant worry, Arjun's free and easy personality inspire those around him to join his wacky adventures. No matter the outcome, you can always be assured of one thing -- it's always fun when Arjun is around. 
 
