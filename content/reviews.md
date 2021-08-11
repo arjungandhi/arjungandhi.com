@@ -29,8 +29,6 @@ Arjun is the person you call when you just can't figure out how to solve somethi
 {{< /blockquote >}}
 <br/>
 {{< blockquote author="Annie Fan" link="https://www.linkedin.com/in/tian-yu-fan-095270205/" >}}
-Arjun's stupid ideas will induces stress to all individuals within a 100ft radius. Despite the constant worry, Arjun's free and easy personality inspire those around him to join his wacky adventures. No matter the outcome, you can always be assured of one thing -- it's always fun when Arjun is around. 
-
 Arjun was my student assistant in a high-level robotics course at our university. Whenever we run into a problem, he is always one of the most reliable people to consult. In short, he's a wizard from another dimension. 
 
 Often, Arjun would stay up in the wee hours of the night/morning to help students debug their projects. He runs extra review/lecture sessions (with great skill) to ensure the success of the students in their courses. He is also incredible at emotional support whenever students have their souls crushed by the looming deadline of their robotics lab. Students could not have asked for a better student assistant, mentor, and role model. 
