@@ -25,7 +25,7 @@ I participated for more than a year as a staff-representative in a Discord serve
   What Arjun fails to mention is that he is one of these people. He loves what he does and if there's a problem that he's passionate about, it'll get solved regardless of time or effort required. (The only caveat is there will be one or two headaches.)
 {{< /blockquote >}}
 <br/>
-{{< blockquote author="Eugene Rontal, M.D." link="https://www.rontalclinic.com/eugene-rontal" >}}
+{{< blockquote author="Anonymous" link="http://useless-sender.s3-website-us-east-1.amazonaws.com/" >}}
 We developed a computer application for urgent care medicine.  In order to bring it to the market, we needed a minimal viable product.  Arjun, in his last year at Worcester Polytechnic, looked over our material and developed a working website.  It had everything we wanted and is a vital asset to our Patented project. He was accurate, engaged, and innovative.  I respect his work and would support him for any job he would apply for.
 {{< /blockquote >}}
 <split-peoples>

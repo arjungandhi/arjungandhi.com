@@ -28,6 +28,6 @@ I was hired to develop an proof of concept web app for a company looking to auto
 
 # Client Review
 
-{{< blockquote author="Eugene Rontal, M.D." link="https://www.rontalclinic.com/eugene-rontal" >}}
+{{< blockquote author="Anonymous" link="http://useless-sender.s3-website-us-east-1.amazonaws.com/" >}}
 We developed a computer application for urgent care medicine.  In order to bring it to the market, we needed a minimal viable product.  Arjun, in his last year at Worcester Polytechnic, looked over our material and developed a working website.  It had everything we wanted and is a vital asset to our Patented project. He was accurate, engaged, and innovative.  I respect his work and would support him for any job he would apply for.
 {{< /blockquote >}}
