@@ -90,7 +90,7 @@ npm: https://www.npmjs.com/package/google-photos-yoinker
 jsdelivr: https://www.jsdelivr.com/package/npm/google-photos-yoinker   
 github: https://www.github.com/arjungandhi/google-photos-yoinker   
 
-A note here for this to work on your website you need to set up your own proxy and API on your own, I used AWS and lambda functions to do this and have instructions for it in the README of the repo. 
+A quick note: For this to work on your website, you need to set up your own proxy and API on your own. I used AWS and lambda functions to do this and have instructions for it in the README of the repo. 
 
 
 <end-tldr>
@@ -113,7 +113,7 @@ This guy's tool does it!
 Building from scratch still sounds like too much effort. 
   
     
-Okay, Google's got their cloud services. They've probably got a great Google Photos API. I used their cloud compute services all of like one time but I'm pretty handy with AWS, I'm sure it'll be fine. 
+Okay, Google's got their cloud services. They've probably got a great Google Photos API. I used their Cloud Compute service all of like one time but I'm pretty handy with AWS, I'm sure it'll be fine. 
 
 {{< figure src="https://i.imgur.com/8fNIfjn.png" >}}
 
@@ -184,7 +184,7 @@ After doing some tests in Jupyter Notebook [here](https://github.com/arjungandhi
 
 The response URL from the vide could also be used as the video source!
 
-....... at this point in the writing of this point i had an idea and went and rewrote the entire code base. 
+....... at this point in the writing of this point I had an idea and went and rewrote the entire code base. 
 
 ## it's been a week and I'm tired. 
 
@@ -196,15 +196,15 @@ So this project might actually work! (note the finding documentation ends up a s
 
 ## enter hell but now it's css flavored
 
-So my initial plan was to just embed a carousel of the photos and videos that I had found. But in my 5 min of looking for a decent carousel library I didn't find one that I liked. 
+So my initial plan was to just embed a carousel of the photos and videos that I had found, but in my 5 minutes of looking for a decent carousel library I didn't find one that I liked. 
 
-And then as I was prowling around the google photos html. I thought how cool would it be to have my own google photos grid, that I could embed in any site. 
+And then as I was prowling around the google photos HTML. I thought how cool would it be to have my own google photos grid, that I could embed in any site. 
 
 Luckily [Dan](https://schlosser.io/) had a great [article](https://medium.com/@danrschlosser/building-the-image-grid-from-google-photos-6a09e193c74a) on how it all worked. 
 
 I tried using his library didn't really like it too much and then ended up implementing the algorithm from scratch anyway. 
 
-I then trugged my way back to the carousel and found [Swiper](https://swiperjs.com/swiper-api) and got a sweet carousel. 
+I then trudged my way back to the carousel and found [Swiper](https://swiperjs.com/swiper-api) and got a sweet carousel. 
 
 3 days later some suffering and bingo bango boongo you got a javascript library that can embed google photos. 
 
@@ -212,7 +212,7 @@ I then trugged my way back to the carousel and found [Swiper](https://swiperjs.c
 
 # demos
 
-Here's a quick demo to highlight the functionality
+Here's a quick demo to highlight the functionality:
 
 To find the album id just grab last part of the share url (or just hit submit with my default one)
 

@@ -18,7 +18,7 @@ summary: proof of concept to ease the ent diagnostic process in urgent cares
 
 # The Blurb
 
-I was hired to develop an proof of concept web app for a company looking to automate the diagnosis process for urgent cares, with issues involving the ear, nose, and throat. I built a custom web over the course of 6 weeks and worked with the client to develop a proof of concept that was easy to show to future investors. 
+I was hired to develop a Proof-of-concept web app for a company looking to automate the diagnosis process for urgent cares, specifically with issues involving the ear, nose, and throat. My client came to me with little preferred direction for the web app, with most of the focus being on the custom diagnostic algorithm he developed. I determined the direction of and built a custom web app over the course of 6 weeks and worked with the client to develop a proof of concept that was easy to show to future investors. 
 
 # Features
   - login system for patient and provider
