@@ -42,6 +42,9 @@ listDateFormat = "Jan, 2006"
 # CommentoURL = "https://commento.example.com/js/commento.js"
 disableThemeSwitcher = true
 displayMode = "nord-dark"
+# google-photos-yoinker
+yoinkerVersion = "1.1.1"
+
 
 [params.simpleAnalytics]
 # enable = true
