@@ -1343,3 +1343,13 @@ hr {
     opacity: .6;
     border: 1px solid;
 }
+
+.adjusted_width > div{
+    width: 100%;
+}
+
+@media screen and (max-width: 960px), print {
+    .adjusted_width{
+        width: 70% !important;
+    }
+}
