@@ -16,7 +16,7 @@ draft: false
 
 # The Blurb
 
-[OFS](https://www.ofsoptics.com/) (Optical Fiber Solutions) is a fiber manufacturing company. I've held two internships here (one in highschool one the summer that I wrote this. My biggest project there was suggesting solutions and improvements to a fiber storage robot known as the ASRS. 
+[OFS](https://www.ofsoptics.com/) (Optical Fiber Solutions) is a fiber manufacturing company. I've held two internships here (one in high school, and one the summer that I wrote this. My biggest project there was suggesting solutions and improvements to a fiber storage robot known as the ASRS. 
 
 # Stuff I worked on
   - Evaluating the feasibility of computer vision based system to locate the position of the fiber racks

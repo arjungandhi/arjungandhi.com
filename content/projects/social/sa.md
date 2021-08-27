@@ -20,7 +20,7 @@ summary: "for some reason they trusted me to teach other students"
 
 # The Blurb
 
-After my misadventures as a student in the senior level robotics courses for some reason my professors thought it was a great idea to encourage other students with my bad ideas. So they made me an SA(like a TA minus the grading). Being an SA was one of the most rewarding experiences from college I learned so much from my students, professors, and got really proficient with the course material. 
+After my misadventures as a student in the senior level robotics courses, for some reason, my professors thought it was a great idea to encourage other students with my bad ideas. So they made me an SA (like a TA minus the grading). Being an SA was one of the most rewarding experiences I had in college. I learned so much from my students, professors, and got really proficient with the course material. 
 
 # Stuff I did
   - Installed Ubuntu on 60+ different laptops

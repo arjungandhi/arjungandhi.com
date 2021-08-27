@@ -14,7 +14,7 @@ draft: false
 
 # The Blurb
 
-This lab is WPI's 3d printing lab. There I worked as a lab assistant managing over 40+ 3d printers, a laser cutter, and a PCB machine. I started working there at the start of the labs opening and spent a alot of time tuning all of the printers to get optimal performance.
+This lab is WPI's 3D printing lab. There, I worked as a lab assistant managing over 40+ 3d printers, a laser cutter, and a PCB machine. I started working there at the start of the labs opening and spent a lot of time tuning all of the printers to get optimal performance.
 
 # What I did
   - Educated Students on how to use the 3d printers and laser cutters

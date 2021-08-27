@@ -16,7 +16,7 @@ summary: identifying child care shortages with custom software
 
 # The Blurb
 
-This project I was hired to do data analysis and visualization to help identify shortages caused in child-care for in the state of Massachusetts. For the first part of this project I worked on visualizing census data for the state of massachusetts. I built a custom webapp that could used leaflet.js and geojson to dynamically visualize any piece of the census data.
+In this freelancing project, I was hired to do data analysis and visualization to help identify shortages caused by COVID in child-care systems in the state of Massachusetts. For the first part of this project, I worked on visualizing census data for the state of massachusetts with the intention to visually compare population sizes against accessible childcare in Mass. counties. I built a custom webapp that used Leaflet.js and GeoJSON to dynamically visualize any field of census data. The client is currently working on retrieving corresponding information about childcare systems. 
 
 # Features 
 - Static webpage
