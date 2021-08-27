@@ -1323,7 +1323,8 @@ code {
     display: block;
     background: url('/gifs/preloader.gif') no-repeat center center ;
     background-size: cover;
-    aspect-ratio: 1.3333;
+    --aspect-ration: 1.333;
+    aspect-ratio: 1.333;
     width: 30%;
 }
 
