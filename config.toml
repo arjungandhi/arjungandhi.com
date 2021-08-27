@@ -43,7 +43,7 @@ listDateFormat = "Jan, 2006"
 disableThemeSwitcher = true
 displayMode = "nord-dark"
 # google-photos-yoinker
-yoinkerVersion = "1.1.1"
+yoinkerVersion = "1.1.2"
 
 
 [params.simpleAnalytics]
