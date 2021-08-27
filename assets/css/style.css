@@ -1350,6 +1350,6 @@ hr {
 
 @media screen and (max-width: 960px), print {
     .adjusted_width{
-        width: 70% !important;
+        width: 100% !important;
     }
 }
