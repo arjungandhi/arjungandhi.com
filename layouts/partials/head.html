@@ -9,7 +9,16 @@
     {{- if .Site.Params.googleSiteVerify }}
     <meta name="google-site-verification" content="{{ .Site.Params.googleSiteVerify }}">
     {{- end -}}
+    {{- if .Site.Params.gtagId }}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.gtagId}}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ .Site.Params.gtagId}}');
+    </script>
 
+    {{- end -}}
     <!-- CSS -->
     {{ $style := resources.Get "css/style.css" | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet"
