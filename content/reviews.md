@@ -11,7 +11,7 @@ I participated for more than a year as a staff-representative in a Discord serve
 {{< /blockquote >}}
 <split-peoples>
 
-{{< blockquote author="Kristen Andoine - Software Systems Engineer at Lockheed Martin" link="https://www.linkedin.com/in/kandonie/" >}}
+{{< blockquote author="Kristen Andonie - Software Systems Engineer at Lockheed Martin" link="https://www.linkedin.com/in/kandonie/" >}}
   Simultaneously the stupidest and one of the smartest humans I've ever known.
 {{< /blockquote >}}
 <br/>
