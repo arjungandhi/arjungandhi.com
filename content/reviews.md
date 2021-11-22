@@ -19,6 +19,10 @@ I participated for more than a year as a staff-representative in a Discord serve
   If Arjun asks you to join a project say yes.  And then get ready to keep up with the ensuing madness..
 {{< /blockquote >}}
 <br/>
+{{< blockquote author="Ilyas Salhi" link="https://www.linkedin.com/in/ilyas121/">}}
+  Arjun is a great systems level thinker. To call Arjun a full stack engineer would be a disservice, because people use the term in the context of software engineering. Arjun is more, able to hack all the way from application code, to the bare metal electrical and mechanical engineering. If it requires critical thinking, it's a great fit and the rest will fall in to place for him.
+{{< /blockquote >}}
+<br/>
 {{< blockquote author="Anonymous" link="http://useless-sender.s3-website-us-east-1.amazonaws.com/">}}
   Arjun has this concept of "Apply \<Insert Person Here\>" when describing people that are so highly skilled they can be entrusted with any problem. All you have to do is give them the complicated issue to solve and some time later,  they'll return with a full solution and cause you zero headaches. You can tell these people love what they do, deriving their skills from their passion. 
   
