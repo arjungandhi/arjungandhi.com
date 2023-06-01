@@ -91,6 +91,16 @@ done;
 
 ### Test it
 
-I saved the code above into a file named `comment` and made it executable 
+I saved the code above into a file named `comment` and made it executable. 
+
+```bash
+arjun@stupid:~ $ echo -e 'hello\nhi\nbye\nbye' | ./comment '#'
+# hello
+# hi
+# bye
+# bye
+```
+
+Yay it worked, writing filters get's way more complex than this but the core concepts are pretty simple.
 
 
