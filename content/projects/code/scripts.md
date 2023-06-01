@@ -9,7 +9,7 @@ tags:
   - go
 categories:
   - code 
-draft: true # TODO
+draft: false
 ---
 # The Blurb
 
@@ -101,6 +101,7 @@ arjun@stupid:~ $ echo -e 'hello\nhi\nbye\nbye' | ./comment '#'
 # bye
 ```
 
-Yay it worked, writing filters get's way more complex than this but the core concepts are pretty simple.
+Yay it worked, writing filters get's way more complex than this but the core concepts are pretty simple. You can do all sorts of crazy things like building snippet tools, adding emojis to text and more! 
 
-
+Have fun in the rabbit hole
+- Arjun
