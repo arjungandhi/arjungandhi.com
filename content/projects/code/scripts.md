@@ -15,7 +15,7 @@ draft: true
 
 # The Blurb
 
-I have discovered just how *cracked*
+I have discovered just how *cracked* linux's [Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) really is 
 
 # What I did
 
