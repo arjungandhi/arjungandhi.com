@@ -11,12 +11,11 @@ categories:
   - code 
 draft: true 
 ---
-
-This first section is a bunch the tld section fill it out you get a really small section
+<end-tldr>
 
 # The Blurb
 
-This project was a shot at my childhood dream of making a robot that can walk. Somehow also convinced my school to give me college credit for it. Me and my team designed built and programmed a 12 DOF quadruped over the course of 8 months. Due to some mechanical errors the quadruped was not able to hold up its own weight but this should be easily fixable in future generations of the mechanics.
+I have discovered just how *cracked*
 
 # What I did
 
@@ -41,4 +40,3 @@ On this project I was primarily responsible for the programming and controls of 
 {{< google-photos tbHcgyWN44g9qj216 carousel >}}
 
 
-<end-tldr>
