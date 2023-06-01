@@ -3,7 +3,7 @@
 <div align="center">
 <h3 align="center">arjungandhi.com</h3>
   <a href="https://github.com/arjungandhi.com">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/arjungandhi/monkey/main/crest/monkey.png" alt="Logo" width="80" height="80">
   </a>
 
   <p align="center">
@@ -22,3 +22,11 @@ I can't remember anything so Future Me you are welcome.
 ```bash
 hugo server
 ```
+
+## How to deploy the site
+
+Push it to github, github action will do github actions things and mainline it.
+
+## How to write new posts 
+
+**SNIPPETS**
