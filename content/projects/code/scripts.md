@@ -106,7 +106,7 @@ Yay it worked, writing filters get's way more complex than this but the core con
 Have fun in the rabbit hole.
 
 # Links:
-ps. Here's links to all my fun code. 
+ps. Here's links to all my scripts that I've made or am working on. 
 - [the small random ones](https://github.com/arjungandhi/dot/tree/master/scripts)
 - [zet](https://github.com/arjungandhi/zet)
 - [list](https://github.com/arjungandhi/list)
