@@ -104,3 +104,10 @@ arjun@stupid:~ $ echo -e 'hello\nhi\nbye\nbye' | ./comment '#'
 Yay it worked, writing filters get's way more complex than this but the core concepts are pretty simple. You can do all sorts of crazy things like building snippet tools, adding emojis to text and more! 
 
 Have fun in the rabbit hole.
+
+# Links:
+ps. Here's links to all my fun code. 
+- [the small random ones](https://github.com/arjungandhi/dot/tree/master/scripts)
+- [zet](https://github.com/arjungandhi/zet)
+- [list](https://github.com/arjungandhi/list)
+- [magellan - wip](https://github.com/arjunandhi/magellan)
