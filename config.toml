@@ -131,3 +131,13 @@ pattern = "^.+\\.(js|css|png|jpg|gif|svg|ttf)$"
 [[deployment.matchers]]
 gzip = true
 pattern = "^.+\\.(html|xml|json)$"
+
+[markup.highlight]
+      codeFences = true
+      guessSyntax = true
+      hl_Lines = ""
+      lineNoStart = 1
+      lineNos = true
+      lineNumbersInTable = true
+      tabWidth = 4
+      noClasses = false
