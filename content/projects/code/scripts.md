@@ -3,7 +3,7 @@ title: "Scripting my existince"
 date: 2023-05-31 
 description: "mmmmm scripting so many flavors" # TODO:
 tags:
-  - bash 
+
   - linux
   - unix philosphy
   - go
@@ -57,7 +57,7 @@ Filters are trivially easy. As an example I'll build out a simple filter that wi
 
 In bash we do this with the `read` command (see `man read`) to learn more. For our case we'll read in a loop each line we get in.
 
-```bash
+```
 #!/bin/bash
 
 while read line
@@ -67,7 +67,7 @@ while read line
 
 In our example we want to comment out the line so lets do that.
 
-```bash
+```
 #!/bin/bash
 
 while read line
@@ -79,7 +79,7 @@ do
 
 Also simple.
 
-```bash
+```
 #!/bin/bash
 
 while read line
@@ -93,7 +93,7 @@ done;
 
 I saved the code above into a file named `comment` and made it executable. 
 
-```bash
+```
 arjun@stupid:~ $ echo -e 'hello\nhi\nbye\nbye' | ./comment '#'
 # hello
 # hi
