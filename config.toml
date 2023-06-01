@@ -16,15 +16,6 @@ title = "Arjun Gandhi"
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
-# [markup.highlight]
-#       codeFences = true
-#       guessSyntax = true
-#       hl_Lines = ""
-#       lineNoStart = 1
-#       lineNos = true
-#       lineNumbersInTable = true
-#       tabWidth = 4
-#       noClasses = false
 
 [params]
 author = "Arjun Gandhi"
