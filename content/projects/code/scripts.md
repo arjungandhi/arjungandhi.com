@@ -67,7 +67,7 @@ while read line
 
 In our example we want to comment out the line so lets do that.
 
-```
+```bash
 #!/bin/bash
 
 while read line
@@ -79,7 +79,7 @@ do
 
 Also simple.
 
-```
+```bash
 #!/bin/bash
 
 while read line
@@ -93,7 +93,7 @@ done;
 
 I saved the code above into a file named `comment` and made it executable. 
 
-```
+```bash
 arjun@stupid:~ $ echo -e 'hello\nhi\nbye\nbye' | ./comment '#'
 # hello
 # hi
