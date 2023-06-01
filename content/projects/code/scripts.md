@@ -39,6 +39,6 @@ On this project I was primarily responsible for the programming and controls of 
 {{< google-photos tbHcgyWN44g9qj216 carousel >}}
 
 
-<end-tldr>
+// <end-tldr>
 
 # put the real content here markdown headings are okay
