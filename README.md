@@ -29,4 +29,10 @@ Push it to github, github action will do github actions things and mainline it.
 
 ## How to write new posts 
 
+```
+post <post-name>
+```
+
+Then:
+
 **SNIPPETS**
