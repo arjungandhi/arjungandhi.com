@@ -1,13 +1,15 @@
 ---
 title: "Scripting my existince"
 date: 2023-05-31 
-description: "shows up in google things" # TODO:
-tags: # TODO: set these to seo *sparkle* terms
-  - <programming languages> 
-  - <hardware things>  
+description: "mmmmm scripting so many flavors" # TODO:
+tags:
+  - bash 
+  - linux
+  - unix philosphy
+  - go
 categories:
-  - code # TODO:
-draft: true # TODO: set false 
+  - code 
+draft: true 
 ---
 
 This first section is a bunch the tld section fill it out you get a really small section
