@@ -45,6 +45,48 @@ Anyway bash filters are awesome so I'm gonna do a bit of a dive into em here mos
 
 A filter in it's basic form is pretty simple. It's any command that takes input data from the `standard input` and outputs the result to `standard output`. 
 
-## Why is a filter
+## Why is filter
 
-This was the part that made this click for me. 
+This was the part that made this click for me. Basically remember how I talked about writing those small apis and hooking them together in complex ways, well it effectively achieves that. By standardizing the way program ingest and output data you can write small specialized commands and then link them together to get remarkably complex behaviors.
+
+## How is filter
+
+Filters are trivially easy. As an example I'll build out a simple filter that will comment out any lines passed to it.
+
+### Step 1: Read text from standard in
+
+In bash we do this with the `read` command (see `man read`) to learn more. For our case we'll read in a loop each line we get in.
+
+```bash
+#!/bin/bash
+
+while read line
+```
+
+### Step 2: Do something with that text
+
+In our example we want to comment out the line so lets do that.
+
+```bash
+#!/bin/bash
+
+while read line
+do 
+    newline="# $line"
+```
+
+### Step 3: Spit the text back out to standard out
+
+Also simple.
+
+```bash
+#!/bin/bash
+
+while read line
+do 
+    newline="# $line"
+    echo $newline"
+done;
+```
+
+
