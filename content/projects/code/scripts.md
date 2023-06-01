@@ -23,7 +23,7 @@ I scripted in bash/go alot.
 
 <end-tldr>
 
-# Yeet
+# The Dream
 
 So I've had this dream for a really long time... 
 
@@ -33,8 +33,18 @@ So for about a year I went down the rabbit hole of kubernetes, argo, distributed
 
 After another year of sitting with my finger in my butt tyrna figure out how to do any of this I stumbled upon a video by [rwxrob](https://github.com/rwxrob), he talked about how you could use filters to transform text in vim. And that was all I needed tip the boulder that sent me tumbling down the scripting rabbit hole.
 
-I have discovered just how *cracked* linux's [Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) really is specifically bash [filters](https://bash.cyberciti.biz/guide/Filters). 
+# 3 weeks later
 
-I've been scripting like a mad man since I watched a video by a very opinionated man that showed me that you could execute bash commands inside of vim to transform the text you are working on. 
+I have discovered just how *cracked* linux's [Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) really is specifically bash [filters](https://bash.cyberciti.biz/guide/Filters). It's
 
+Turns out my dream had already been designed, implemented, open sourced, and made completely free by some Finnish Dude in the 90's. Go figure.
 
+Anyway bash filters are awesome so I'm gonna do a bit of a dive into em here mostly for my own entertainment. 
+
+## What is filter
+
+A filter in it's basic form is pretty simple. It's any command that takes input data from the `standard input` and outputs the result to `standard output`. 
+
+## Why is a filter
+
+This was the part that made this click for me. 
