@@ -3,7 +3,7 @@
 <div align="center">
 <h3 align="center">arjungandhi.com</h3>
   <a href="https://github.com/arjungandhi.com">
-    <img src="static/images/uwu-no-bg.gif" alt="Logo" width="80" height="80">
+    <img src="static/gifs/uwu-no-bg.gif" alt="Logo" width="80" height="80">
   </a>
 
   <p align="center">
