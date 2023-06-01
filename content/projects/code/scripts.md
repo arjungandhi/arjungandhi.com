@@ -89,4 +89,8 @@ do
 done;
 ```
 
+### Test it
+
+I saved the code above into a file named `comment` and made it executable 
+
 
