@@ -11,15 +11,13 @@ categories:
   - code 
 draft: true 
 ---
-<end-tldr>
-
 # The Blurb
 
-I have discovered just how *cracked* linux's [Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) really is 
+I have discovered just how *cracked* linux's [Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) really is specifically bash [filters](https://bash.cyberciti.biz/guide/Filters). 
 
 # What I did
 
-On this project I was primarily responsible for the programming and controls of the robot. I worked on everything from the math on the controls to the high level visualizations of the robots. 
+I've been scripting like a mad man since I watched a video by [rwx rob](https://github.com/rwxrob) a very opinionated man that showed me that you could execute bash commands inside of vim to transform tthe text you have on your terminal
 
 # Features
   - Carbon Fiber and 3d printed body
