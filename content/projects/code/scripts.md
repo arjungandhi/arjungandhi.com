@@ -27,11 +27,11 @@ I scripted in bash/go alot.
 
 So I've had this dream for a really long time... 
 
-Imagine a system where you could build really small apis and link them together inorder to create really complex behavior, and you could use timers to run those linked apis on a timer and ohmygoditwouldbeamazing. 
+Imagine a system where you could build really small apis and link them together in order to create really complex behavior, and you could use timers to run those linked apis on a timer and ohmygoditwouldbeamazing. 
 
 So for about a year I went down the rabbit hole of kubernetes, argo, distributed computing, and more. Turns out that building a Jarvis is hard... and expensive.
 
-After another year of sitting with my finger in my butt tyrna figure out how to do any of this I stumbled upon a video by [rwxrob](https://github.com/rwxrob), he talked about how you could use filters to transform text in vim. And that was all I needed tip the boulder that sent me tumbling down the scripting rabbit hole.
+After another year of doing other things, and noodling on how to do any of this I stumbled upon a video by [rwxrob](https://github.com/rwxrob), he talked about how you could use filters to transform text in vim. And that was all I needed tip the boulder that sent me tumbling down the scripting rabbit hole.
 
 # 3 weeks later
 
