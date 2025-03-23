@@ -15,7 +15,7 @@ Reworked my philosphy on project planning / execution, for personal projects. Wr
 
 # Links:
 - [atp](https://github.com/arjungandhi/atp)
-- [the design doc)](https;//github.com/arjungandhi/atp/design_doc.md)
+- [the design doc](https://github.com/arjungandhi/atp/blob/master/design_doc.md)
 
 <end-tldr>
 
@@ -79,6 +79,6 @@ Couple cool projects that I have in mind
 
 # Links:
 - [atp](https://github.com/arjungandhi/atp)
-- [the design doc)](https;//github.com/arjungandhi/atp/design_doc.md)
+- [the design doc](https://github.com/arjungandhi/atp/blob/master/design_doc.md)
 
 
