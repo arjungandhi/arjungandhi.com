@@ -208,7 +208,7 @@ I then trudged my way back to the carousel and found [Swiper](https://swiperjs.c
 
 3 days later some suffering and bingo bango boongo you got a javascript library that can embed google photos. 
 
-{{< tweet 1420455256136237059 >}}
+{{< x user="arjungandhi" id="1420455256136237059" >}}
 
 # demos
 
