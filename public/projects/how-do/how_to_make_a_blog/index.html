@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="nord-dark"><head>
+    <title> Arjun Gandhi | How to make a blog with Hugo and AWS </title>
+
+    
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.160.1"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="How and Why I made this blog">
+    
+    <link rel="stylesheet"
+          href="https://www.arjungandhi.com/css/style.min.1b8e0902f9ba5e47efdf3e5b25e7a1ea7476f69b75fea3dcf8e6e729d3062441.css"
+          integrity="sha256-G44JAvm6Xkfv3z5bJeeh6nR29pt1/qPc&#43;ObnKdMGJEE="
+          crossorigin="anonymous"
+          type="text/css">
+    
+    <link rel="stylesheet"
+        href="https://www.arjungandhi.com/css/markupHighlight.min.b798444acd0339ca1e48fb1e9d2f7a2dd02a5a19fc121fd5164f0af5fbb5e395.css"
+        integrity="sha256-t5hESs0DOcoeSPsenS96LdAqWhn8Eh/VFk8K9fu145U="
+        crossorigin="anonymous"
+        type="text/css">
+    
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" />
+
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/google-photos-yoinker@1.1.5/src/yoink.min.css" 
+    crossorigin="anonymous" />
+
+    
+    <link rel="shortcut icon" href="https://www.arjungandhi.com/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.arjungandhi.com/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.arjungandhi.com/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.arjungandhi.com/favicons/favicon-16x16.png">
+
+    <link rel="canonical" href="https://www.arjungandhi.com/projects/how-do/how_to_make_a_blog/">
+
+    
+    
+ 
+    <script type="module">
+        import embed_google_photos from "https://cdn.jsdelivr.net/npm/google-photos-yoinker@1.1.5/src/yoink.min.js"
+        window.photo_function = embed_google_photos
+    </script>
+
+    
+    
+    <script type="text/javascript"
+    src="https://www.arjungandhi.com/js/tldr.min.8094a0eaf537bd74359fbcdf5e7af105f2187e2a5ae26ba3c3933717d134852b.js"
+    integrity="sha256-gJSg6vU3vXQ1n7zfXnrxBfIYfipa4mujw5M3F9E0hSs="
+    crossorigin="anonymous"></script>
+
+    
+    
+    <script type="text/javascript"
+            src="https://www.arjungandhi.com/js/anatole-header.min.df804b63b5bd8474ea0756ea874bc8f1e92552708cc6ea43aa0d76981dc419f9.js"
+            integrity="sha256-34BLY7W9hHTqB1bqh0vI8eklUnCMxupDqg12mB3EGfk="
+            crossorigin="anonymous"></script>
+
+
+    
+    
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.arjungandhi.com/images/site-feature-image.png">
+  <meta name="twitter:title" content="How to make a blog with Hugo and AWS">
+  <meta name="twitter:description" content="How and Why I made this blog">
+
+
+    
+
+
+</head>
+<body><div class="sidebar animated fadeInDown ">
+    <div class="logo-title">
+        <div class="title">
+            <img src="https://www.arjungandhi.com/images/profile.jpg" alt="profile picture">
+            <h3 title=""><a href="/">Arjun Gandhi</a></h3>
+            <div class="description">
+                <p>I make things</p>
+            </div>
+        </div>
+    </div>
+    <ul class="social-links">
+        
+            <li>
+                <a href="https://www.linkedin.com/in/arjungandhi06/" rel="me" aria-label="Linkedin">
+                    <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://github.com/arjungandhi" rel="me" aria-label="GitHub">
+                    <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="mailto:contact@arjungandhi.com" rel="me" aria-label="e-mail">
+                    <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Arjun Gandhi  2026 </div>
+    </div>
+</div>
+<div class="main">
+    <div class="page-top  animated fadeInDown ">
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+    </a>
+    <ul class="nav" id="navMenu">
+        
+        
+            
+            <li><a 
+                   href="/"
+                        
+                   title="">Who am I?</a></li>
+        
+            
+            <li><a 
+                   href="/reviews/"
+                        
+                   title="">What Do People Think?</a></li>
+        
+            
+            <li><a 
+                   href="/projects/"
+                        
+                   title="">Stuff I&#39;ve Done</a></li>
+        
+            
+            <li><a 
+                   href="/blog/"
+                        
+                   title="">Latest Projects</a></li>
+        
+            
+            <li><a 
+                   href="/contact/"
+                        
+                   title="">Contact</a></li>
+        
+        
+        
+    </ul>
+</div>
+
+    <div class="autopagerize_page_element">
+        <div class="content">
+<div class="post  animated fadeInDown ">
+    <div class="post-content">
+        
+        <div class="post-title">
+            
+            <h1>How to make a blog with Hugo and AWS</h1>
+            
+            </div>
+    </div>
+    
+    <hr />
+    
+    
+    <div class="post-content"><div id="content">
+        <h2 id="why-i-chose-this-framework">Why I chose this framework</h2>
+<p>So I&rsquo;m incredibly particular about how my workflow goes, I want things to be automated, cohesive, pretty, and try to keep the list of frameworks and tools I need to learn to a minimum. So to be honest I had actually never heard about a blog framework like this. I had only really heard of <em>shudder</em> wordpress. I <strong>hate</strong> wordpress, it&rsquo;s bulky hard to edit and every time I have to touch PHP I want to curl into a ball and die. So I&rsquo;ve always wanted a blog, but I had requirements.</p>
+<ol>
+<li>Needed to be a static site (I&rsquo;m a broke college student, static sites on AWS are free)</li>
+<li>Needed to be based of html and javascript.</li>
+<li>Integrates easily with my standard color scheme.</li>
+<li>Easy to use, and edit content in.</li>
+</ol>
+<p>To be honest with you I thought my options were wordpress or bust. I was ready, and had several attempts, at designing my own dynamic website management system based entirely in AWS. However a year or two after that horrible attempt, I was talking to a fellow student about wordpress for a different site we were working on, and he mentioned that static site generators exist. To be honest with you I don&rsquo;t know why I never considered that if I hated wordpress, some one else must hate it just as much as me, and some coder much better than me must have come up with a solution.</p>
+<p>So I started googling and learning about all the various static site generators that exist. The major ones I had heard were Jekyll and Ghost, but to be honest I had issues with both. Jekyll is like super integrated with github and making it work with AWS seemed like way too much effort. Ghost cost money and I am currently very poor, but just as I was about to give up I stumbled upon <a href="https://gohugo.io">Hugo</a> and immediately fell in love. It was fast, used markdown, looked great and free. So after about 10 min of staring at the site I sent it and downloaded the cli tool.</p>
+<h2 id="how-i-set-up-this-site">How I set up this site</h2>
+<h3 id="1-install-hugo">1. Install Hugo</h3>
+<p>I run arch linux so for me it was as easy as</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo pacman -S hugo
+</span></span></code></pre></div><h3 id="2-create-a-new-site">2. Create a New Site</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ hugo new site imnotanadult.blog
+</span></span></code></pre></div><h3 id="3-set-that-template-site-up-as-a-git-repo-and-push-to-github">3. Set that template site up as a git repo and push to github</h3>
+<p>You should know how to do this, if you don&rsquo;t <strong>learn git</strong> its like fundamental to all stuff you do with any code, you can read my git guide <a href="https://books.arjungandhi.com/Computers/Git_for_Robots.pdf">here</a></p>
+<h3 id="4-find-a-pretty-theme-modify-it-if-you-like">4. Find a pretty theme (Modify it if you like)</h3>
+<p>Hugo has a huge <a href="https://themes.gohugo.io/">theme repository</a> with all sorts of beautiful themes for you to yoink. Find one you like and add it as a submodule. I forked this <a href="https://github.com/arjungandhi/hugo-theme-codex">one</a> and changed some colors to match the <a href="https://www.nordtheme.com/">Nord color scheme</a> its the color scheme I use for literally everything.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ git submodule add https://github.com/arjungandhi/hugo-theme-codex themes/codex
+</span></span></code></pre></div><p>Add it to the <code>config.toml</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ <span class="nb">echo</span> <span class="s1">&#39;theme = &#34;codex&#34;&#39;</span> &gt;&gt; config.toml
+</span></span></code></pre></div><h3 id="5-yoink-the-example-site">5. Yoink the example site</h3>
+<p>Go steal all of the code that makes the example theme of your site, trust me its easier, modify them as needed.</p>
+<h3 id="6-copy-over-the-example-post-files-and-modify">6. Copy over the example post files and modify</h3>
+<p>Now Hugo can use markdown, json and others to generate your site from the content. I like markdown cause its easy to write in and you can add html in if you feel like it.</p>
+<p>You could make a new post with this command:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ hugo new content/blog/my-first-post.md
+</span></span></code></pre></div><p>But I found it didn&rsquo;t generate all the little tags for my theme so I went ahead and copied over all of the example files and just copy and modify them as needed.</p>
+<h3 id="7-build-you-blog">7. Build you blog!</h3>
+<p>You can build your blog with</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ hugo
+</span></span></code></pre></div><p>You can also start a live server for viewing your changes live with</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ hugo server
+</span></span></code></pre></div><h3 id="8-setup-a-s3-bucket-for-your-site">8. Setup a s3 bucket for your site.</h3>
+<p>Amazon does has a much better tutorial <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html">here</a></p>
+<h3 id="9-setup-hugo-to-deploy-your-site">9. Setup Hugo to deploy your site</h3>
+<p>Add the following to <code>config.toml</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="c"># Deployment</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">deployment</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">deployment</span><span class="p">.</span><span class="nx">targets</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;&lt;your s3 bucket name&gt;&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">URL</span> <span class="p">=</span> <span class="s2">&#34;s3://&lt;your s3 bucket name&gt;?region=&lt;your reigon&gt;&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># If you are using a CloudFront CDN, deploy will invalidate the cache as needed.</span>
+</span></span><span class="line"><span class="cl"><span class="nx">cloudFrontDistributionID</span> <span class="p">=</span>	<span class="s2">&#34;&lt;your cloud fornt ID&gt;&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">deployment</span><span class="p">.</span><span class="nx">matchers</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Cache static assets for 20 years.</span>
+</span></span><span class="line"><span class="cl"><span class="nx">pattern</span> <span class="p">=</span> <span class="s2">&#34;^.+\\.(js|css|png|jpg|gif|svg|ttf)$&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">cacheControl</span> <span class="p">=</span> <span class="s2">&#34;max-age=630720000, no-transform, public&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">gzip</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">deployment</span><span class="p">.</span><span class="nx">matchers</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">pattern</span> <span class="p">=</span> <span class="s2">&#34;^.+\\.(html|xml|json)$&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">gzip</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span></code></pre></div><p>Running <code>hugo deploy</code> will build and deploy your site to AWS</p>
+<h3 id="9-making-git-auto-build-and-push-your-blog">9. Making git auto build and push your blog!</h3>
+<p>Using github workflows you can have a github automatically build and push your code to AWS whenever you push to the master/ any other branch!</p>
+<p>The following action below will build Hugo -&gt; upload it to AWS -&gt; invalidate the Cloudfront cache -&gt; clear the Cloudflare cache (If you dont use Cloudflare just delete the last 4 lines)</p>
+<p>Create a file called <code>main.yml</code> in <code>.github/worflows</code></p>
+<p>Paste this into the file.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="c"># This is a basic workflow to help you get started with Actions</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">deploy</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="c"># Controls when the action will run. Triggers the workflow on push or pull request</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="c"># events but only for the master branch</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">on</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">push</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">branches</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="l">master ]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">pull_request</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">branches</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="l">master ]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">build</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build and Deploy</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-18.04</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v2</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">submodules</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="c"># Sets up Hugo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Setup Hugo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-hugo@v2</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">hugo-version</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;0.76.5&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">hugo --minify --verbose</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy to S3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">if</span><span class="p">:</span><span class="w"> </span><span class="l">github.ref == &#39;refs/heads/master&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">hugo deploy -v --force --maxDeletes -1 --invalidateCDN </span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">env</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">AWS_ACCESS_KEY_ID</span><span class="p">:</span><span class="w"> </span><span class="l">${{secrets.AWS_ACCESS_KEY_ID}}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">AWS_SECRET_ACCESS_KEY</span><span class="p">:</span><span class="w"> </span><span class="l">${{secrets.AWS_SECRET_ACCESS_KEY}}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Clear Cloudflare Cache</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">jakejarvis/cloudflare-purge-action@v0.3.0</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">env</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">CLOUDFLARE_ZONE</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.CLOUDFLARE_ZONE }}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">CLOUDFLARE_TOKEN</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.CLOUDFLARE_TOKEN }}</span><span class="w">
+</span></span></span></code></pre></div><p>For this to work you will need to add AWS access keys and Cloudflare keys as a <a href="https://docs.github.com/en/free-pro-team@latest/actions/reference/encrypted-secrets">encrypted secret</a></p>
+<h2 id="closing">Closing</h2>
+<p>Hopefully this brief tutorial helps some one, I know it was kind of a pain to find all this info when I tried setting this up. If you have any questions feel free to reach out to me and enjoy your brand new blog!</p>
+<p>-Arjun</p>
+
+    </div><div class="contact">
+    If you have an interesting project, have a cool story to tell, want to work together, or if you're just bored.
+    <br/><br/>
+    <strong>Contact Me:</strong>&nbsp;<code>contact@arjungandhi.com</code> or 
+    <code><a href="https://calendly.com/arjungandhi/talk-to-me">schedule a meeting</a></code>
+</div>
+
+</div>
+<div class="post-footer">
+    <div class="info">
+        <span class="separator"><a class="category" href="/categories/internets/">internets</a></span>
+
+        <span class="separator"><a class="tag" href="/tags/hugo/">hugo</a><a class="tag" href="/tags/aws/">aws</a><a class="tag" href="/tags/github/">github</a><a class="tag" href="/tags/blog/">blog</a></span>
+
+    </div>
+</div>
+
+
+</div>
+
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript"
+        src="https://www.arjungandhi.com/js/medium-zoom.min.00f0d88de05977c48e4c08c312d320dafb8f9c17cb793047b360556dac1cac7c.js"
+        integrity="sha256-APDYjeBZd8SOTAjDEtMg2vuPnBfLeTBHs2BVbawcrHw="
+        crossorigin="anonymous"></script><link rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css"
+              integrity="sha384-t5CR&#43;zwDAROtph0PXGte6ia8heboACF9R5l/DiY&#43;WZ3P2lxNgvJkQk5n7GPvLMYw"
+              crossorigin="anonymous"><script defer
+                src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js"
+                integrity="sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8&#43;w2LAIftJEULZABrF9PPFv&#43;tVkH"
+                crossorigin="anonymous"></script><script defer
+                src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js"
+                integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB&#43;w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v"
+                crossorigin="anonymous"
+                onload="renderMathInElement(document.body);"></script><script data-goatcounter="https://stats.hospital.monky.cloud/count"
+        async src="//stats.hospital.monky.cloud/count.js"></script>
+</body>
+
+</html>

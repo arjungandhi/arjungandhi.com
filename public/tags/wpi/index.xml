@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wpi on Arjun Gandhi</title>
+    <link>https://www.arjungandhi.com/tags/wpi/</link>
+    <description>Recent content in Wpi on Arjun Gandhi</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.arjungandhi.com/tags/wpi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Swol Kat</title>
+      <link>https://www.arjungandhi.com/projects/robots/swolkat/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/swolkat/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;This project was a shot at my childhood dream of making a robot that can walk. Somehow I also convinced my school to give me college credit for it. Me and my team designed built and programmed a 12 DOF quadruped over the course of 8 months. Due to some mechanical errors the quadruped was not able to hold up its own weight but this should be easily fixable in future generations of the mechanics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Odrive Tuner Tool</title>
+      <link>https://www.arjungandhi.com/projects/robots/odrive-tuner/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/odrive-tuner/</guid>
+      <description>overkill tuning tool for motors</description>
+    </item>
+    <item>
+      <title>The Future: Trees</title>
+      <link>https://www.arjungandhi.com/projects/art/trees/</link>
+      <pubDate>Tue, 16 Mar 2021 14:47:41 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/art/trees/</guid>
+      <description>demonstrating the branching nature of your life as a tree</description>
+    </item>
+    <item>
+      <title>Data Visualization: Rain Drops</title>
+      <link>https://www.arjungandhi.com/projects/art/raindrops/</link>
+      <pubDate>Sun, 14 Mar 2021 14:47:41 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/art/raindrops/</guid>
+      <description>simulating life and death with raindrops</description>
+    </item>
+    <item>
+      <title>Maker Map</title>
+      <link>https://www.arjungandhi.com/projects/social/makermap/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/social/makermap/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;This project was a started when I noticed how painfully convoluted it was to find and use some campus resources. In order to solve this problem, me and my team worked together with the Provost Office and the Innovation and Entrepreneurship department to conduct interviews of the department heads and surverys of students to identify the root of the problem and propose solutions that integrate with existing WPI systems.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

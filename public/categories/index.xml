@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Arjun Gandhi</title>
+    <link>https://www.arjungandhi.com/categories/</link>
+    <description>Recent content in Categories on Arjun Gandhi</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.arjungandhi.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code</title>
+      <link>https://www.arjungandhi.com/categories/code/</link>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/categories/code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Internets</title>
+      <link>https://www.arjungandhi.com/categories/internets/</link>
+      <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/categories/internets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Robots</title>
+      <link>https://www.arjungandhi.com/categories/robots/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/categories/robots/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Freelancing</title>
+      <link>https://www.arjungandhi.com/categories/freelancing/</link>
+      <pubDate>Tue, 08 Jun 2021 16:31:57 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/categories/freelancing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Art</title>
+      <link>https://www.arjungandhi.com/categories/art/</link>
+      <pubDate>Tue, 16 Mar 2021 14:47:41 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/categories/art/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Social</title>
+      <link>https://www.arjungandhi.com/categories/social/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/categories/social/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Work-Experience</title>
+      <link>https://www.arjungandhi.com/categories/work-experience/</link>
+      <pubDate>Sun, 11 Aug 2019 12:38:17 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/categories/work-experience/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Startups</title>
+      <link>https://www.arjungandhi.com/categories/startups/</link>
+      <pubDate>Fri, 08 Mar 2019 16:32:11 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/categories/startups/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

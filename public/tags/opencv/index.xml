@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Opencv on Arjun Gandhi</title>
+    <link>https://www.arjungandhi.com/tags/opencv/</link>
+    <description>Recent content in Opencv on Arjun Gandhi</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 04 Oct 2019 19:31:32 -0400</lastBuildDate>
+    <atom:link href="https://www.arjungandhi.com/tags/opencv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rbe 3001</title>
+      <link>https://www.arjungandhi.com/projects/robots/rbe-3001/</link>
+      <pubDate>Fri, 04 Oct 2019 19:31:32 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/rbe-3001/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;This project used computer vision and a 3DOF robot arm to sort orbs by color and size.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ofs</title>
+      <link>https://www.arjungandhi.com/projects/work-experience/ofs/</link>
+      <pubDate>Sun, 11 Aug 2019 12:30:03 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/work-experience/ofs/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.ofsoptics.com/&#34;&gt;OFS&lt;/a&gt; (Optical Fiber Solutions) is a fiber manufacturing company. I&amp;rsquo;ve held two internships here (one in high school, and one the summer that I wrote this. My biggest project there was suggesting solutions and improvements to a fiber storage robot known as the ASRS.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

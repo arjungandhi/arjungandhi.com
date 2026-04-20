@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Face-Api.js on Arjun Gandhi</title>
+    <link>https://www.arjungandhi.com/tags/face-api.js/</link>
+    <description>Recent content in Face-Api.js on Arjun Gandhi</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 16 Mar 2021 14:47:41 +0000</lastBuildDate>
+    <atom:link href="https://www.arjungandhi.com/tags/face-api.js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Future: Trees</title>
+      <link>https://www.arjungandhi.com/projects/art/trees/</link>
+      <pubDate>Tue, 16 Mar 2021 14:47:41 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/art/trees/</guid>
+      <description>demonstrating the branching nature of your life as a tree</description>
+    </item>
+  </channel>
+</rss>

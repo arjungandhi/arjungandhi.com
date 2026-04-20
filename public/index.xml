@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arjun Gandhi</title>
+    <link>https://www.arjungandhi.com/</link>
+    <description>Recent content on Arjun Gandhi</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.arjungandhi.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ATP</title>
+      <link>https://www.arjungandhi.com/projects/code/atp/</link>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/code/atp/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;Reworked my philosphy on project planning / execution, for personal projects. Wrote a small tool to help me with that.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Scripting my existince</title>
+      <link>https://www.arjungandhi.com/projects/code/scripts/</link>
+      <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/code/scripts/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;I scripted in bash/go alot.&lt;/p&gt;&#xA;&lt;h1 id=&#34;links&#34;&gt;Links:&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/arjungandhi/dot/tree/master/scripts&#34;&gt;the small random ones&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/arjungandhi/zet&#34;&gt;zet&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/arjungandhi/list&#34;&gt;list&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/arjunandhi/magellan&#34;&gt;magellan - wip&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;end-tldr&gt;&#xA;&lt;h1 id=&#34;the-dream&#34;&gt;The Dream&lt;/h1&gt;&#xA;&lt;p&gt;So I&amp;rsquo;ve had this dream for a really long time&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Google Photos Hurts Me </title>
+      <link>https://www.arjungandhi.com/projects/internets/google-photos-hurts-me/</link>
+      <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/internets/google-photos-hurts-me/</guid>
+      <description>google removed the good features so I did it my self.</description>
+    </item>
+    <item>
+      <title>Swol Kat</title>
+      <link>https://www.arjungandhi.com/projects/robots/swolkat/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/swolkat/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;This project was a shot at my childhood dream of making a robot that can walk. Somehow I also convinced my school to give me college credit for it. Me and my team designed built and programmed a 12 DOF quadruped over the course of 8 months. Due to some mechanical errors the quadruped was not able to hold up its own weight but this should be easily fixable in future generations of the mechanics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Urgent Diagnostics</title>
+      <link>https://www.arjungandhi.com/projects/freelancing/urgent-diagnostics/</link>
+      <pubDate>Tue, 08 Jun 2021 16:31:57 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/freelancing/urgent-diagnostics/</guid>
+      <description>proof of concept to ease the ent diagnostic process in urgent cares</description>
+    </item>
+    <item>
+      <title>Care Institute</title>
+      <link>https://www.arjungandhi.com/projects/freelancing/care-institute/</link>
+      <pubDate>Tue, 08 Jun 2021 16:31:47 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/freelancing/care-institute/</guid>
+      <description>identifying child care shortages with custom software</description>
+    </item>
+    <item>
+      <title>Odrive Tuner Tool</title>
+      <link>https://www.arjungandhi.com/projects/robots/odrive-tuner/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/odrive-tuner/</guid>
+      <description>overkill tuning tool for motors</description>
+    </item>
+    <item>
+      <title>Pretty Please</title>
+      <link>https://www.arjungandhi.com/projects/internets/pretty-please/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/internets/pretty-please/</guid>
+      <description>i wrote a css framework</description>
+    </item>
+    <item>
+      <title>The Future: Trees</title>
+      <link>https://www.arjungandhi.com/projects/art/trees/</link>
+      <pubDate>Tue, 16 Mar 2021 14:47:41 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/art/trees/</guid>
+      <description>demonstrating the branching nature of your life as a tree</description>
+    </item>
+    <item>
+      <title>Data Visualization: Rain Drops</title>
+      <link>https://www.arjungandhi.com/projects/art/raindrops/</link>
+      <pubDate>Sun, 14 Mar 2021 14:47:41 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/art/raindrops/</guid>
+      <description>simulating life and death with raindrops</description>
+    </item>
+    <item>
+      <title>How to make a blog with Hugo and AWS</title>
+      <link>https://www.arjungandhi.com/projects/how-do/how_to_make_a_blog/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/how-do/how_to_make_a_blog/</guid>
+      <description>how did i make this site</description>
+    </item>
+    <item>
+      <title>Maker Map</title>
+      <link>https://www.arjungandhi.com/projects/social/makermap/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/social/makermap/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;This project was a started when I noticed how painfully convoluted it was to find and use some campus resources. In order to solve this problem, me and my team worked together with the Provost Office and the Innovation and Entrepreneurship department to conduct interviews of the department heads and surverys of students to identify the root of the problem and propose solutions that integrate with existing WPI systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Student Assistant</title>
+      <link>https://www.arjungandhi.com/projects/social/sa/</link>
+      <pubDate>Thu, 04 Jun 2020 19:55:32 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/social/sa/</guid>
+      <description>for some reason they trusted me to teach other students</description>
+    </item>
+    <item>
+      <title>Rbe 3002</title>
+      <link>https://www.arjungandhi.com/projects/robots/rbe-3002/</link>
+      <pubDate>Wed, 04 Dec 2019 19:31:34 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/rbe-3002/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;This project used a turtlebot burger to do SLAM around a maze. Most of the path planning and drive logic was developed from scratch using ROS. The robot first maps the field, then returns to its original position than can navigate to any point on the field using an input from rviz.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rbe 3001</title>
+      <link>https://www.arjungandhi.com/projects/robots/rbe-3001/</link>
+      <pubDate>Fri, 04 Oct 2019 19:31:32 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/rbe-3001/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;This project used computer vision and a 3DOF robot arm to sort orbs by color and size.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fitzgerald Prototyping Lab</title>
+      <link>https://www.arjungandhi.com/projects/work-experience/rapid-prototyping-lab/</link>
+      <pubDate>Sun, 11 Aug 2019 12:38:17 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/work-experience/rapid-prototyping-lab/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;This lab is WPI&amp;rsquo;s 3D printing lab. There, I worked as a lab assistant managing over 40+ 3d printers, a laser cutter, and a PCB machine. I started working there at the start of the labs opening and spent a lot of time tuning all of the printers to get optimal performance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ofs</title>
+      <link>https://www.arjungandhi.com/projects/work-experience/ofs/</link>
+      <pubDate>Sun, 11 Aug 2019 12:30:03 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/work-experience/ofs/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.ofsoptics.com/&#34;&gt;OFS&lt;/a&gt; (Optical Fiber Solutions) is a fiber manufacturing company. I&amp;rsquo;ve held two internships here (one in high school, and one the summer that I wrote this. My biggest project there was suggesting solutions and improvements to a fiber storage robot known as the ASRS.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.arjungandhi.com/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/archives/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nock</title>
+      <link>https://www.arjungandhi.com/projects/startups/nock/</link>
+      <pubDate>Fri, 08 Mar 2019 16:32:11 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/startups/nock/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;Nock.ai (now known as Testgram) was a start up company I started with me and a few friends. The goal of the company was to design a product that could eliminate the manual generation of test cases for companies. I joined the company with little-to-no software experience (I had taken AP CS in highschool).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.arjungandhi.com/contact/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/contact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Latest Posts</title>
+      <link>https://www.arjungandhi.com/blog/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>people that taught me, people i have worked with, people i taught</title>
+      <link>https://www.arjungandhi.com/reviews/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/reviews/</guid>
+      <description>&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;  &#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;      &#xA;      &#xA;      &#xA;    &#xA;     &#xA;      &#xA;    &#xA;    &#xA;&#xA;    &#xA;    &#xA;  &#xA;&#xA;&#xA;&lt;blockquote&gt;&#xA;  &lt;p&gt;I participated for more than a year as a staff-representative in a Discord server that was developed and moderated by a team of dedicated students, of which Arjun was one. This server, previously an underutilized resource, was reinvigorated by this team to help the WPI Robotics student population maintain a sense of community even in the face of the unexpected separation caused by the COVID-19 pandemic. Arjun was one of the primary moderators that I interacted with, and I had the pleasure of seeing firsthand the significant work he put into creating a positive, welcoming space in what can be a contentious online environment. This work ranged from active engagement with users to promote participation across multiple diverse topics and threads, to creating server-specific bots and emotes at user request and in response to the developing culture of the community, to working with myself, other staff, and faculty to ensure that the server was not only a social space, but a recreation of the kind of service and assistance students could find within the Robotics Engineering major. While the original moderation team all had a hand in creating this important, vibrant resource, I credit Arjun greatly with demonstrating and promoting on the server the spirit of inclusivity, humor, comradeship, and multidisciplinary excellence that exemplifies what it is to be a WPI Robotics Engineer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Symbotic Robotics Challenge</title>
+      <link>https://www.arjungandhi.com/projects/robots/symbotic/</link>
+      <pubDate>Mon, 04 Jun 2018 20:05:40 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/symbotic/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.symbotic.com/&#34;&gt;Symbotic&lt;/a&gt; builds and automates warehouses. While moving big boxes sometimes their robots sometimes spill a variety of foods on the track and they needed away to clean it up. So they a cash prize and held a competition. WPI decided to put 5 freshman and one somophore on the project. My team and I won 2nd place and 25,000 dollars.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rbe 2002</title>
+      <link>https://www.arjungandhi.com/projects/robots/rbe-2002/</link>
+      <pubDate>Fri, 04 May 2018 19:03:38 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/rbe-2002/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;Another robotics class means another robot. This robot was to be an autonomous “Fire Fighting” robot. The robot was tasked with navigating around the maze locating a “fire” (It was a candle), navigating back to the start and reporting the position of the fire.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rbe 2001</title>
+      <link>https://www.arjungandhi.com/projects/robots/rbe-2001/</link>
+      <pubDate>Sun, 04 Mar 2018 12:57:20 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/rbe-2001/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;RBE 2001 was my second robotics class with another full robot as the semester project. This robot was designed to be a &amp;ldquo;Nuclear Power Plant&amp;rdquo; robot, tasked with moving rods of &amp;ldquo;nuclear fuel&amp;rdquo; around the field. The field communicated with the robot over Bluetooth and the robot autonomously navigated around the field. The robot was able to receive Emergency Stop, Resume and Restart commands as well.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RBE 1001</title>
+      <link>https://www.arjungandhi.com/projects/robots/rbe-1001/</link>
+      <pubDate>Wed, 04 Oct 2017 12:50:03 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/rbe-1001/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;RBE1001 was my first robotics class in college. The goal of the project was to design, build, and program a robot to play a [Savage Soccer] game from the previous year. Even though we were allowed to use pre-manufacture VEX parts and metal, I ended up using a laser cutter for the first time to design a completely custom robot from scratch.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Techno Titans</title>
+      <link>https://www.arjungandhi.com/projects/robots/techno-titans/</link>
+      <pubDate>Sat, 01 Jul 2017 00:48:00 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/techno-titans/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;My first deep dive into robotics was my high school robotics team. There I worked on robots for VEX, &lt;a href=&#34;https://www.bestrobotics.org/site/&#34;&gt;BEST&lt;/a&gt;, and &lt;a href=&#34;https://www.firstinspires.org/robotics/frc&#34;&gt;FRC&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

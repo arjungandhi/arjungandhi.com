@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aws on Arjun Gandhi</title>
+    <link>https://www.arjungandhi.com/tags/aws/</link>
+    <description>Recent content in Aws on Arjun Gandhi</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.arjungandhi.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to make a blog with Hugo and AWS</title>
+      <link>https://www.arjungandhi.com/projects/how-do/how_to_make_a_blog/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/how-do/how_to_make_a_blog/</guid>
+      <description>how did i make this site</description>
+    </item>
+    <item>
+      <title>Nock</title>
+      <link>https://www.arjungandhi.com/projects/startups/nock/</link>
+      <pubDate>Fri, 08 Mar 2019 16:32:11 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/startups/nock/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;Nock.ai (now known as Testgram) was a start up company I started with me and a few friends. The goal of the company was to design a product that could eliminate the manual generation of test cases for companies. I joined the company with little-to-no software experience (I had taken AP CS in highschool).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

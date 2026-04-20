@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bluetooth on Arjun Gandhi</title>
+    <link>https://www.arjungandhi.com/tags/bluetooth/</link>
+    <description>Recent content in Bluetooth on Arjun Gandhi</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 04 Mar 2018 12:57:20 -0400</lastBuildDate>
+    <atom:link href="https://www.arjungandhi.com/tags/bluetooth/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rbe 2001</title>
+      <link>https://www.arjungandhi.com/projects/robots/rbe-2001/</link>
+      <pubDate>Sun, 04 Mar 2018 12:57:20 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/rbe-2001/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;RBE 2001 was my second robotics class with another full robot as the semester project. This robot was designed to be a &amp;ldquo;Nuclear Power Plant&amp;rdquo; robot, tasked with moving rods of &amp;ldquo;nuclear fuel&amp;rdquo; around the field. The field communicated with the robot over Bluetooth and the robot autonomously navigated around the field. The robot was able to receive Emergency Stop, Resume and Restart commands as well.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>React on Arjun Gandhi</title>
+    <link>https://www.arjungandhi.com/tags/react/</link>
+    <description>Recent content in React on Arjun Gandhi</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 08 Jun 2021 16:31:57 -0400</lastBuildDate>
+    <atom:link href="https://www.arjungandhi.com/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Urgent Diagnostics</title>
+      <link>https://www.arjungandhi.com/projects/freelancing/urgent-diagnostics/</link>
+      <pubDate>Tue, 08 Jun 2021 16:31:57 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/freelancing/urgent-diagnostics/</guid>
+      <description>proof of concept to ease the ent diagnostic process in urgent cares</description>
+    </item>
+  </channel>
+</rss>

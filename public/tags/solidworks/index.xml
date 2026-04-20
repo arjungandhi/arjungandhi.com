@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Solidworks on Arjun Gandhi</title>
+    <link>https://www.arjungandhi.com/tags/solidworks/</link>
+    <description>Recent content in Solidworks on Arjun Gandhi</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.arjungandhi.com/tags/solidworks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Swol Kat</title>
+      <link>https://www.arjungandhi.com/projects/robots/swolkat/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/swolkat/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;This project was a shot at my childhood dream of making a robot that can walk. Somehow I also convinced my school to give me college credit for it. Me and my team designed built and programmed a 12 DOF quadruped over the course of 8 months. Due to some mechanical errors the quadruped was not able to hold up its own weight but this should be easily fixable in future generations of the mechanics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rbe 2002</title>
+      <link>https://www.arjungandhi.com/projects/robots/rbe-2002/</link>
+      <pubDate>Fri, 04 May 2018 19:03:38 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/rbe-2002/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;Another robotics class means another robot. This robot was to be an autonomous “Fire Fighting” robot. The robot was tasked with navigating around the maze locating a “fire” (It was a candle), navigating back to the start and reporting the position of the fire.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rbe 2001</title>
+      <link>https://www.arjungandhi.com/projects/robots/rbe-2001/</link>
+      <pubDate>Sun, 04 Mar 2018 12:57:20 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/rbe-2001/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;RBE 2001 was my second robotics class with another full robot as the semester project. This robot was designed to be a &amp;ldquo;Nuclear Power Plant&amp;rdquo; robot, tasked with moving rods of &amp;ldquo;nuclear fuel&amp;rdquo; around the field. The field communicated with the robot over Bluetooth and the robot autonomously navigated around the field. The robot was able to receive Emergency Stop, Resume and Restart commands as well.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RBE 1001</title>
+      <link>https://www.arjungandhi.com/projects/robots/rbe-1001/</link>
+      <pubDate>Wed, 04 Oct 2017 12:50:03 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/rbe-1001/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;RBE1001 was my first robotics class in college. The goal of the project was to design, build, and program a robot to play a [Savage Soccer] game from the previous year. Even though we were allowed to use pre-manufacture VEX parts and metal, I ended up using a laser cutter for the first time to design a completely custom robot from scratch.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unix Philosphy on Arjun Gandhi</title>
+    <link>https://www.arjungandhi.com/tags/unix-philosphy/</link>
+    <description>Recent content in Unix Philosphy on Arjun Gandhi</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 31 May 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.arjungandhi.com/tags/unix-philosphy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scripting my existince</title>
+      <link>https://www.arjungandhi.com/projects/code/scripts/</link>
+      <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/code/scripts/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;I scripted in bash/go alot.&lt;/p&gt;&#xA;&lt;h1 id=&#34;links&#34;&gt;Links:&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/arjungandhi/dot/tree/master/scripts&#34;&gt;the small random ones&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/arjungandhi/zet&#34;&gt;zet&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/arjungandhi/list&#34;&gt;list&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/arjunandhi/magellan&#34;&gt;magellan - wip&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;end-tldr&gt;&#xA;&lt;h1 id=&#34;the-dream&#34;&gt;The Dream&lt;/h1&gt;&#xA;&lt;p&gt;So I&amp;rsquo;ve had this dream for a really long time&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

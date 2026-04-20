@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dom on Arjun Gandhi</title>
+    <link>https://www.arjungandhi.com/tags/dom/</link>
+    <description>Recent content in Dom on Arjun Gandhi</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 08 Mar 2019 16:32:11 -0400</lastBuildDate>
+    <atom:link href="https://www.arjungandhi.com/tags/dom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nock</title>
+      <link>https://www.arjungandhi.com/projects/startups/nock/</link>
+      <pubDate>Fri, 08 Mar 2019 16:32:11 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/startups/nock/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;Nock.ai (now known as Testgram) was a start up company I started with me and a few friends. The goal of the company was to design a product that could eliminate the manual generation of test cases for companies. I joined the company with little-to-no software experience (I had taken AP CS in highschool).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

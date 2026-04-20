@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A* on Arjun Gandhi</title>
+    <link>https://www.arjungandhi.com/tags/a/</link>
+    <description>Recent content in A* on Arjun Gandhi</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 04 Dec 2019 19:31:34 -0400</lastBuildDate>
+    <atom:link href="https://www.arjungandhi.com/tags/a/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rbe 3002</title>
+      <link>https://www.arjungandhi.com/projects/robots/rbe-3002/</link>
+      <pubDate>Wed, 04 Dec 2019 19:31:34 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/rbe-3002/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;This project used a turtlebot burger to do SLAM around a maze. Most of the path planning and drive logic was developed from scratch using ROS. The robot first maps the field, then returns to its original position than can navigate to any point on the field using an input from rviz.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

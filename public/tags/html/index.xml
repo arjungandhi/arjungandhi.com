@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Html on Arjun Gandhi</title>
+    <link>https://www.arjungandhi.com/tags/html/</link>
+    <description>Recent content in Html on Arjun Gandhi</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 19 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.arjungandhi.com/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Photos Hurts Me </title>
+      <link>https://www.arjungandhi.com/projects/internets/google-photos-hurts-me/</link>
+      <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/internets/google-photos-hurts-me/</guid>
+      <description>google removed the good features so I did it my self.</description>
+    </item>
+    <item>
+      <title>Swol Kat</title>
+      <link>https://www.arjungandhi.com/projects/robots/swolkat/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/swolkat/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;This project was a shot at my childhood dream of making a robot that can walk. Somehow I also convinced my school to give me college credit for it. Me and my team designed built and programmed a 12 DOF quadruped over the course of 8 months. Due to some mechanical errors the quadruped was not able to hold up its own weight but this should be easily fixable in future generations of the mechanics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Care Institute</title>
+      <link>https://www.arjungandhi.com/projects/freelancing/care-institute/</link>
+      <pubDate>Tue, 08 Jun 2021 16:31:47 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/freelancing/care-institute/</guid>
+      <description>identifying child care shortages with custom software</description>
+    </item>
+    <item>
+      <title>Odrive Tuner Tool</title>
+      <link>https://www.arjungandhi.com/projects/robots/odrive-tuner/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/odrive-tuner/</guid>
+      <description>overkill tuning tool for motors</description>
+    </item>
+    <item>
+      <title>Pretty Please</title>
+      <link>https://www.arjungandhi.com/projects/internets/pretty-please/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/internets/pretty-please/</guid>
+      <description>i wrote a css framework</description>
+    </item>
+    <item>
+      <title>The Future: Trees</title>
+      <link>https://www.arjungandhi.com/projects/art/trees/</link>
+      <pubDate>Tue, 16 Mar 2021 14:47:41 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/art/trees/</guid>
+      <description>demonstrating the branching nature of your life as a tree</description>
+    </item>
+    <item>
+      <title>Data Visualization: Rain Drops</title>
+      <link>https://www.arjungandhi.com/projects/art/raindrops/</link>
+      <pubDate>Sun, 14 Mar 2021 14:47:41 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/art/raindrops/</guid>
+      <description>simulating life and death with raindrops</description>
+    </item>
+    <item>
+      <title>Nock</title>
+      <link>https://www.arjungandhi.com/projects/startups/nock/</link>
+      <pubDate>Fri, 08 Mar 2019 16:32:11 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/startups/nock/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;Nock.ai (now known as Testgram) was a start up company I started with me and a few friends. The goal of the company was to design a product that could eliminate the manual generation of test cases for companies. I joined the company with little-to-no software experience (I had taken AP CS in highschool).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

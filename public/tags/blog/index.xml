@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Arjun Gandhi</title>
+    <link>https://www.arjungandhi.com/tags/blog/</link>
+    <description>Recent content in Blog on Arjun Gandhi</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.arjungandhi.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to make a blog with Hugo and AWS</title>
+      <link>https://www.arjungandhi.com/projects/how-do/how_to_make_a_blog/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/how-do/how_to_make_a_blog/</guid>
+      <description>how did i make this site</description>
+    </item>
+  </channel>
+</rss>

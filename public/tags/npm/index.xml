@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Npm on Arjun Gandhi</title>
+    <link>https://www.arjungandhi.com/tags/npm/</link>
+    <description>Recent content in Npm on Arjun Gandhi</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 19 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.arjungandhi.com/tags/npm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Photos Hurts Me </title>
+      <link>https://www.arjungandhi.com/projects/internets/google-photos-hurts-me/</link>
+      <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.arjungandhi.com/projects/internets/google-photos-hurts-me/</guid>
+      <description>google removed the good features so I did it my self.</description>
+    </item>
+  </channel>
+</rss>

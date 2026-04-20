@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matlab on Arjun Gandhi</title>
+    <link>https://www.arjungandhi.com/tags/matlab/</link>
+    <description>Recent content in Matlab on Arjun Gandhi</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 04 Oct 2019 19:31:32 -0400</lastBuildDate>
+    <atom:link href="https://www.arjungandhi.com/tags/matlab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rbe 3001</title>
+      <link>https://www.arjungandhi.com/projects/robots/rbe-3001/</link>
+      <pubDate>Fri, 04 Oct 2019 19:31:32 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/rbe-3001/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;This project used computer vision and a 3DOF robot arm to sort orbs by color and size.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

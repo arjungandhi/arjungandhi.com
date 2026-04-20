@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vaccuming on Arjun Gandhi</title>
+    <link>https://www.arjungandhi.com/tags/vaccuming/</link>
+    <description>Recent content in Vaccuming on Arjun Gandhi</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 04 Jun 2018 20:05:40 -0400</lastBuildDate>
+    <atom:link href="https://www.arjungandhi.com/tags/vaccuming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Symbotic Robotics Challenge</title>
+      <link>https://www.arjungandhi.com/projects/robots/symbotic/</link>
+      <pubDate>Mon, 04 Jun 2018 20:05:40 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/robots/symbotic/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.symbotic.com/&#34;&gt;Symbotic&lt;/a&gt; builds and automates warehouses. While moving big boxes sometimes their robots sometimes spill a variety of foods on the track and they needed away to clean it up. So they a cash prize and held a competition. WPI decided to put 5 freshman and one somophore on the project. My team and I won 2nd place and 25,000 dollars.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

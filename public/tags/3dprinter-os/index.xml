@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3dprinter Os on Arjun Gandhi</title>
+    <link>https://www.arjungandhi.com/tags/3dprinter-os/</link>
+    <description>Recent content in 3dprinter Os on Arjun Gandhi</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 11 Aug 2019 12:38:17 -0400</lastBuildDate>
+    <atom:link href="https://www.arjungandhi.com/tags/3dprinter-os/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fitzgerald Prototyping Lab</title>
+      <link>https://www.arjungandhi.com/projects/work-experience/rapid-prototyping-lab/</link>
+      <pubDate>Sun, 11 Aug 2019 12:38:17 -0400</pubDate>
+      <guid>https://www.arjungandhi.com/projects/work-experience/rapid-prototyping-lab/</guid>
+      <description>&lt;h1 id=&#34;the-blurb&#34;&gt;The Blurb&lt;/h1&gt;&#xA;&lt;p&gt;This lab is WPI&amp;rsquo;s 3D printing lab. There, I worked as a lab assistant managing over 40+ 3d printers, a laser cutter, and a PCB machine. I started working there at the start of the labs opening and spent a lot of time tuning all of the printers to get optimal performance.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
